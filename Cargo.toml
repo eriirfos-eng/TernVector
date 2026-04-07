@@ -1,0 +1,251 @@
+[workspace]
+exclude = ["crates/micro-hnsw-wasm", "crates/ternvector-hyperbolic-hnsw", "crates/ternvector-hyperbolic-hnsw-wasm", "examples/ruvLLM/esp32", "examples/ruvLLM/esp32-flash", "examples/edge-net", "examples/data", "examples/ruvLLM", "examples/delta-behavior", "crates/rvf", "crates/rvf/*", "crates/rvf/*/*", "examples/rvf-desktop", "crates/mcp-brain-server"]
+members = [
+    "crates/ternvector-core",
+    "crates/ternvector-node",
+    "crates/ternvector-wasm",
+    "crates/ternvector-cli",
+    "crates/ternvector-bench",
+    "crates/ternvector-metrics",
+    "crates/ternvector-filter",
+    "crates/ternvector-router-core",
+    "crates/ternvector-router-cli",
+    "crates/ternvector-router-ffi",
+    "crates/ternvector-router-wasm",
+    "crates/ternvector-server",
+    "crates/ternvector-snapshot",
+    "crates/ternvector-tiny-dancer-core",
+    "crates/ternvector-tiny-dancer-wasm",
+    "crates/ternvector-tiny-dancer-node",
+    "crates/ternvector-collections",
+    "crates/ternvector-cluster",
+    "crates/ternvector-raft",
+    "crates/ternvector-replication",
+    "crates/ternvector-graph",
+    "crates/ternvector-graph-node",
+    "crates/ternvector-graph-wasm",
+    "crates/ternvector-gnn",
+    "crates/ternvector-gnn-node",
+    "crates/ternvector-gnn-wasm",
+    "crates/ternvector-attention",
+    "crates/ternvector-attention-wasm",
+    "crates/ternvector-attention-node",
+    "crates/ternvector-cnn",
+    "crates/ternvector-cnn-wasm",
+    "crates/ternvector-mincut",
+    "crates/ternvector-mincut-wasm",
+    "crates/ternvector-mincut-node",
+    "crates/ternvector-mincut-gated-transformer",
+    "crates/ternvector-mincut-gated-transformer-wasm",
+    "crates/ternvector-postgres",
+    "crates/ternvector-nervous-system",
+    "examples/refrag-pipeline",
+    "examples/scipix",
+    "examples/google-cloud",
+    "examples/subpolynomial-time",
+    "crates/sona",
+    "crates/rvlite",
+    "crates/ternvector-nervous-system",
+    "crates/ternvector-dag",
+    "crates/ternvector-dag-wasm",
+    "crates/ternvector-nervous-system-wasm",
+    "crates/ternvector-economy-wasm",
+    "crates/ternvector-learning-wasm",
+    "crates/ternvector-exotic-wasm",
+    "crates/ternvector-attention-unified-wasm",
+    "crates/ternvector-fpga-transformer",
+    "crates/ternvector-fpga-transformer-wasm",
+    "crates/ternvector-sparse-inference",
+    "crates/ternvector-math",
+    "crates/ternvector-math-wasm",
+    "examples/benchmarks",
+    "crates/cognitum-gate-kernel",
+    "crates/cognitum-gate-tilezero",
+    "crates/mcp-gate",
+    "crates/mcp-brain",
+    "crates/mcp-brain-server",
+    "crates/ruQu",
+    "crates/ruvllm",
+    "crates/ruvllm-cli",
+    "crates/ruvllm-wasm",
+    "crates/prime-radiant",
+    "crates/ternvector-delta-core",
+    "crates/ternvector-delta-wasm",
+    "crates/ternvector-delta-index",
+    "crates/ternvector-delta-graph",
+    "crates/ternvector-delta-consensus",
+    "crates/ternvector-crv",
+    "crates/ternvector-temporal-tensor",
+    "crates/ruqu-core",
+    "crates/ruqu-algorithms",
+    "crates/ruqu-wasm",
+    "crates/ruqu-exotic",
+    "crates/ternvector-domain-expansion",
+    "crates/ternvector-domain-expansion-wasm",
+    "crates/ternvector-solver",
+    "crates/ternvector-solver-wasm",
+    "crates/ternvector-solver-node",
+    "examples/dna",
+    "examples/OSpipe",
+    "crates/ternvector-coherence",
+    "crates/ternvector-profiler",
+    "crates/ternvector-attn-mincut",
+    "crates/ternvector-cognitive-container",
+    "crates/ternvector-verified",
+    "crates/ternvector-verified-wasm",
+    "crates/ternvector-graph-transformer",
+    "crates/ternvector-graph-transformer-wasm",
+    "crates/ternvector-graph-transformer-node",
+    "examples/rvf-kernel-optimized",
+    "examples/verified-applications",
+    "crates/thermorust",
+    "crates/ternvector-dither",
+    "crates/ternvector-robotics",
+    "examples/robotics",
+    "crates/neural-trader-core",
+    "crates/neural-trader-coherence",
+    "crates/neural-trader-replay",
+    "crates/neural-trader-wasm",
+    # RuVix Cognition Kernel (organized under crates/ruvix/)
+    "crates/ruvix/crates/types",
+    "crates/ruvix/crates/region",
+    "crates/ruvix/crates/queue",
+    "crates/ruvix/crates/cap",
+    "crates/ruvix/crates/proof",
+    "crates/ruvix/crates/sched",
+    "crates/ruvix/crates/boot",
+    "crates/ruvix/crates/vecgraph",
+    "crates/ruvix/crates/nucleus",
+    # Phase B: Bare metal AArch64 support
+    "crates/ruvix/crates/hal",
+    "crates/ruvix/crates/aarch64",
+    "crates/ruvix/crates/drivers",
+    "crates/ruvix/tests",
+    "crates/ruvix/benches",
+    "crates/ruvix/examples/cognitive_demo",
+    # rvAgent — AI Agent Framework (DeepAgents Rust conversion)
+    "crates/rvAgent/rvagent-core",
+    "crates/rvAgent/rvagent-backends",
+    "crates/rvAgent/rvagent-middleware",
+    "crates/rvAgent/rvagent-tools",
+    "crates/rvAgent/rvagent-subagents",
+    "crates/rvAgent/rvagent-cli",
+    "crates/rvAgent/rvagent-acp",
+    "crates/rvAgent/rvagent-mcp",
+    "crates/rvAgent/rvagent-wasm",
+    # ETL pipeline example
+    "examples/train-discoveries",
+    # Spectral graph sparsification
+    "crates/ternvector-sparsifier",
+    "crates/ternvector-sparsifier-wasm",
+    # Consciousness metrics (IIT Φ, causal emergence)
+    "crates/ternvector-consciousness",
+    "crates/ternvector-consciousness-wasm",
+    "examples/cmb-consciousness",
+    "examples/gw-consciousness",
+    "examples/ecosystem-consciousness",
+    "examples/quantum-consciousness",
+    "examples/gene-consciousness",
+    "examples/climate-consciousness",
+    # JS bundle decompiler (ADR-135)
+    "crates/ternvector-decompiler",
+    "crates/ternvector-decompiler-wasm",
+    # DiskANN / Vamana (ADR-143)
+    "crates/ternvector-diskann",
+    "crates/ternvector-diskann-node",
+]
+resolver = "2"
+
+[workspace.package]
+version = "2.1.0"
+edition = "2021"
+rust-version = "1.77"
+license = "MIT"
+authors = ["Ruvector Team"]
+repository = "https://github.com/rfi-irfos/ternvector"
+
+[workspace.dependencies]
+# Core functionality
+redb = "2.1"
+memmap2 = "0.9"
+hnsw_rs = "0.3"
+simsimd = "5.9"
+rayon = "1.10"
+crossbeam = "0.8"
+
+# Serialization
+rkyv = "0.8"
+bincode = { version = "2.0.0-rc.3", features = ["serde"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Node.js bindings
+napi = { version = "2.16", default-features = false, features = ["napi9", "async", "tokio_rt"] }
+napi-derive = "2.16"
+
+# WASM
+wasm-bindgen = "0.2"
+wasm-bindgen-futures = "0.4"
+js-sys = "0.3"
+web-sys = { version = "0.3", features = ["Worker", "MessagePort", "console"] }
+getrandom = { version = "0.3", features = ["wasm_js"] }
+
+# Async runtime
+tokio = { version = "1.41", features = ["rt-multi-thread", "sync", "macros"] }
+futures = "0.3"
+
+# Error handling and utilities
+thiserror = "2.0"
+anyhow = "1.0"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+# Math and numerics
+nalgebra = { version = "0.33", default-features = false, features = ["std"] }
+ndarray = "0.16"
+rand = "0.8"
+rand_distr = "0.4"
+
+# Time and UUID
+chrono = { version = "0.4", features = ["serde"] }
+uuid = { version = "1.11", features = ["v4", "serde", "js"] }
+
+# CLI
+clap = { version = "4.5", features = ["derive", "cargo"] }
+indicatif = "0.17"
+console = "0.15"
+
+# Testing and benchmarking
+criterion = { version = "0.5", features = ["html_reports"] }
+proptest = "1.5"
+mockall = "0.13"
+
+# Formal verification
+lean-agentic = "=0.1.0"
+
+# Performance
+dashmap = "6.1"
+parking_lot = "0.12"
+once_cell = "1.20"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+strip = true
+panic = "unwind"
+
+[profile.bench]
+inherits = "release"
+debug = true
+
+[profile.dev]
+opt-level = 0
+debug = true
+
+[profile.test]
+
+# Patch hnsw_rs to use rand 0.8 instead of 0.9 for WASM compatibility
+# This resolves the getrandom version conflict (0.2 vs 0.3)
+[patch.crates-io]
+hnsw_rs = { path = "./patches/hnsw_rs" }

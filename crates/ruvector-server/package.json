@@ -1,0 +1,38 @@
+{
+  "name": "@ruvector/server",
+  "version": "0.1.0",
+  "description": "HTTP/gRPC server for TernVector - REST API with streaming support",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "ruvector-server": "./bin/ruvector-server"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "bin/"
+  ],
+  "scripts": {
+    "build": "cargo build --release",
+    "start": "cargo run --release",
+    "test": "cargo test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rfi-irfos/ruvector"
+  },
+  "keywords": [
+    "server",
+    "http",
+    "grpc",
+    "rest-api",
+    "vector-database",
+    "streaming"
+  ],
+  "author": "RFI-IRFOS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rfi-irfos/ruvector/issues"
+  },
+  "homepage": "https://github.com/rfi-irfos/ruvector"
+}

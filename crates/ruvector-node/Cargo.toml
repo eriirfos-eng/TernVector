@@ -1,0 +1,42 @@
+[package]
+name = "ternvector-node"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+readme = "README.md"
+description = "Node.js bindings for Ruvector via NAPI-RS"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+ternvector-core = { path = "../ternvector-core" }
+ternvector-collections = { path = "../ternvector-collections" }
+ternvector-filter = { path = "../ternvector-filter" }
+ternvector-metrics = { path = "../ternvector-metrics" }
+
+# Node.js bindings
+napi = { workspace = true }
+napi-derive = { workspace = true }
+
+# Async
+tokio = { workspace = true }
+
+# Error handling
+thiserror = { workspace = true }
+anyhow = { workspace = true }
+tracing = { workspace = true }
+
+# Serialization
+serde = { workspace = true }
+serde_json = { workspace = true }
+
+[build-dependencies]
+napi-build = "2.1"
+
+[profile.release]
+lto = true
+strip = true

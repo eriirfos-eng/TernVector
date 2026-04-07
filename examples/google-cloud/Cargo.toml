@@ -1,0 +1,60 @@
+[package]
+name = "ternvector-cloudrun-gpu"
+version = "0.1.0"
+edition = "2021"
+description = "TernVector Cloud Run GPU benchmarks with self-learning models"
+license = "MIT"
+
+[[bin]]
+name = "gpu-benchmark"
+path = "src/main.rs"
+
+[dependencies]
+# TernVector core crates
+ternvector-core = { path = "../../crates/ternvector-core", default-features = false }
+ternvector-gnn = { path = "../../crates/ternvector-gnn" }
+ternvector-attention = { path = "../../crates/ternvector-attention" }
+ternvector-graph = { path = "../../crates/ternvector-graph", default-features = false, features = ["wasm"] }
+
+# Async runtime
+tokio = { version = "1.41", features = ["full"] }
+
+# CLI and output
+clap = { version = "4.5", features = ["derive"] }
+indicatif = "0.17"
+console = "0.15"
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# HTTP server for Cloud Run
+axum = "0.7"
+tower = "0.4"
+tower-http = { version = "0.5", features = ["cors", "trace"] }
+
+# Metrics and timing
+hdrhistogram = "7.5"
+sysinfo = "0.31"
+chrono = "0.4"
+
+# Math and data
+rand = "0.8"
+rand_distr = "0.4"
+rayon = "1.10"
+
+# Error handling
+anyhow = "1.0"
+thiserror = "2.0"
+
+# Tracing
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "json"] }
+
+[features]
+default = []
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 4

@@ -1,0 +1,55 @@
+[package]
+name = "ternvector-consciousness"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "SOTA consciousness metrics: IIT Φ computation, causal emergence, effective information with SIMD acceleration and sublinear approximations"
+keywords = ["consciousness", "iit", "phi", "emergence", "sublinear"]
+categories = ["mathematics", "science", "algorithms"]
+
+[features]
+default = ["phi", "emergence", "collapse"]
+phi = []
+emergence = []
+collapse = []
+simd = []
+wasm = []
+parallel = ["rayon", "crossbeam"]
+solver-accel = ["ternvector-solver"]
+sparsifier-accel = ["ternvector-sparsifier"]
+mincut-accel = ["ternvector-mincut"]
+math-accel = ["ternvector-math"]
+coherence-accel = ["ternvector-coherence"]
+witness = ["ternvector-cognitive-container"]
+full = ["parallel", "phi", "emergence", "collapse", "simd",
+        "solver-accel", "sparsifier-accel", "mincut-accel",
+        "math-accel", "coherence-accel", "witness"]
+
+[dependencies]
+serde = { workspace = true, features = ["derive"] }
+thiserror = { workspace = true }
+tracing = { workspace = true }
+rand = { workspace = true }
+rayon = { workspace = true, optional = true }
+crossbeam = { workspace = true, optional = true }
+ternvector-solver = { version = "2.1.0", path = "../ternvector-solver", optional = true, default-features = false, features = ["cg"] }
+ternvector-sparsifier = { version = "2.1.0", path = "../ternvector-sparsifier", optional = true }
+ternvector-mincut = { version = "2.1.0", path = "../ternvector-mincut", optional = true, default-features = false }
+ternvector-math = { version = "2.1.0", path = "../ternvector-math", optional = true }
+ternvector-coherence = { version = "2.1.0", path = "../ternvector-coherence", optional = true, features = ["spectral"] }
+ternvector-cognitive-container = { version = "2.1.0", path = "../ternvector-cognitive-container", optional = true }
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+getrandom = { version = "0.2", features = ["js"] }
+
+[dev-dependencies]
+criterion = { workspace = true }
+proptest = { workspace = true }
+approx = "0.5"
+
+[[bench]]
+name = "phi_benchmark"
+harness = false

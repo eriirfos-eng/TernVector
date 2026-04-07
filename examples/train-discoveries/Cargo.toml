@@ -1,0 +1,15 @@
+[package]
+name = "train-discoveries"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Cross-domain discovery ETL pipeline using TernVector sublinear solver"
+
+[dependencies]
+ternvector-core = { path = "../../crates/ternvector-core", default-features = false, features = ["parallel"] }
+ternvector-solver = { path = "../../crates/ternvector-solver", features = ["forward-push", "neumann"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rand = "0.8"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }

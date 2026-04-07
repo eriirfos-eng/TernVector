@@ -1,0 +1,42 @@
+[package]
+name = "exo-backend-classical"
+version = "0.1.1"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["RFI-IRFOS <ruv@ruv.io>"]
+repository = "https://github.com/rfi-irfos/ternvector"
+homepage = "https://ruv.io"
+documentation = "https://docs.rs/exo-backend-classical"
+description = "Classical compute backend for EXO-AI cognitive substrate with SIMD acceleration"
+keywords = ["backend", "compute", "simd", "cognitive", "ai"]
+categories = ["science", "algorithms", "simulation"]
+readme = "README.md"
+
+[dependencies]
+# EXO dependencies
+exo-core = "0.1"
+exo-manifold = "0.1"
+exo-temporal = "0.1"
+exo-federation = "0.1"
+exo-exotic = "0.1"
+
+# Ruvector dependencies
+ternvector-core = { version = "0.1", features = ["simd"] }
+ternvector-graph = "0.1"
+ternvector-domain-expansion = "2.0"
+thermorust = "0.1"
+ternvector-dither = "0.1"
+rand = { version = "0.8", features = ["small_rng"] }
+
+# Utility dependencies
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "2.0"
+parking_lot = "0.12"
+uuid = { version = "1.0", features = ["v4"] }
+
+[features]
+default = []
+rvf = ["ternvector-domain-expansion/rvf"]
+
+[dev-dependencies]
