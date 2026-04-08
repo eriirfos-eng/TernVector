@@ -14,7 +14,7 @@ readme = "README.md"
 crate-type = ["cdylib"]
 
 [dependencies]
-ternvector-mincut = { version = "2.0", path = "../ternvector-mincut", features = ["monitoring"] }
+ternvector-mincut = { version = "2.1.0", path = "../ternvector-mincut", features = ["monitoring"] }
 napi = { workspace = true }
 napi-derive = { workspace = true }
 serde = { workspace = true }

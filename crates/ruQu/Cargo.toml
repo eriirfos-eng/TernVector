@@ -13,14 +13,14 @@ categories = ["science", "algorithms", "hardware-support"]
 
 [dependencies]
 # TernVector dependencies - Real implementations
-ternvector-mincut = { version = "0.1.30", optional = true, features = ["exact"] }
+ternvector-mincut = { version = "2.1.0", path = "../ternvector-mincut", optional = true, features = ["exact"] }
 cognitum-gate-tilezero = { version = "0.1.0", optional = true }
 
 # Quantum error decoding
 fusion-blossom = { version = "0.2", optional = true }
 
 # Mincut-gated attention optimization
-ternvector-mincut-gated-transformer = { version = "0.1.0", optional = true }
+ternvector-mincut-gated-transformer = { version = "2.1.0", path = "../ternvector-mincut-gated-transformer", optional = true }
 
 # Parallel processing
 rayon = { version = "1.10", optional = true }

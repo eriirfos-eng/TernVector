@@ -1353,7 +1353,7 @@ version = "0.1.0"
 dependencies = [
  "rand 0.8.5",
  "rand_chacha 0.3.1",
- "ruvector-consciousness",
+ "ternvector-consciousness",
 ]
 
 [[package]]
@@ -1380,7 +1380,7 @@ version = "0.1.0"
 dependencies = [
  "rand 0.8.5",
  "rand_chacha 0.3.1",
- "ruvector-consciousness",
+ "ternvector-consciousness",
 ]
 
 [[package]]
@@ -1406,7 +1406,8 @@ dependencies = [
  "criterion 0.5.1",
  "libm",
  "proptest",
- "ruvector-mincut 2.1.0",
+ "ternlang-gate",
+ "ternvector-mincut",
 ]
 
 [[package]]
@@ -1416,7 +1417,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5c3fbcc49a3b67f7edb3c987b15f70dee06eebf072bd3fb679b8077983a8d55d"
 dependencies = [
  "libm",
- "ruvector-mincut 2.0.6",
+ "ruvector-mincut",
 ]
 
 [[package]]
@@ -1430,9 +1431,9 @@ dependencies = [
  "hex",
  "proptest",
  "rand 0.8.5",
- "ruvector-mincut 0.1.30",
  "serde",
  "serde_json",
+ "ternvector-mincut",
  "thiserror 1.0.69",
  "tokio",
  "tracing",
@@ -2507,7 +2508,7 @@ version = "0.1.0"
 dependencies = [
  "rand 0.8.5",
  "rand_chacha 0.3.1",
- "ruvector-consciousness",
+ "ternvector-consciousness",
 ]
 
 [[package]]
@@ -3416,7 +3417,7 @@ version = "0.1.0"
 dependencies = [
  "rand 0.8.5",
  "rand_chacha 0.3.1",
- "ruvector-consciousness",
+ "ternvector-consciousness",
 ]
 
 [[package]]
@@ -3766,7 +3767,7 @@ version = "0.1.0"
 dependencies = [
  "rand 0.8.5",
  "rand_chacha 0.3.1",
- "ruvector-consciousness",
+ "ternvector-consciousness",
 ]
 
 [[package]]
@@ -5200,10 +5201,10 @@ dependencies = [
  "hex",
  "regex-lite",
  "reqwest 0.12.28",
- "ruvector-sona 0.1.9",
  "serde",
  "serde_json",
  "sha3",
+ "ternvector-sona",
  "thiserror 2.0.18",
  "tokio",
  "tracing",
@@ -5226,14 +5227,6 @@ dependencies = [
  "parking_lot 0.12.5",
  "rand 0.8.5",
  "reqwest 0.12.28",
- "ruvector-consciousness",
- "ruvector-delta-core",
- "ruvector-domain-expansion",
- "ruvector-mincut 2.1.0",
- "ruvector-nervous-system",
- "ruvector-solver",
- "ruvector-sona 0.1.9",
- "ruvector-sparsifier",
  "ruvllm 2.1.0",
  "rvf-crypto",
  "rvf-federation",
@@ -5248,6 +5241,14 @@ dependencies = [
  "subtle",
  "temporal-attractor-studio",
  "temporal-neural-solver",
+ "ternvector-consciousness",
+ "ternvector-delta-core",
+ "ternvector-domain-expansion",
+ "ternvector-mincut",
+ "ternvector-nervous-system",
+ "ternvector-solver",
+ "ternvector-sona",
+ "ternvector-sparsifier",
  "thiserror 2.0.18",
  "tokio",
  "tokio-stream",
@@ -6542,17 +6543,17 @@ dependencies = [
  "js-sys",
  "rand 0.8.5",
  "ruqu-algorithms",
- "ruvector-attention",
- "ruvector-cluster",
- "ruvector-core 2.1.0",
- "ruvector-delta-core",
- "ruvector-filter",
- "ruvector-gnn",
- "ruvector-graph",
- "ruvector-router-core",
  "serde",
  "serde-wasm-bindgen",
  "serde_json",
+ "ternvector-attention",
+ "ternvector-cluster",
+ "ternvector-core",
+ "ternvector-delta-core",
+ "ternvector-filter",
+ "ternvector-gnn",
+ "ternvector-graph",
+ "ternvector-router-core",
  "thiserror 2.0.18",
  "tokio",
  "tower 0.5.3",
@@ -7348,20 +7349,20 @@ dependencies = [
  "rayon",
  "rkyv",
  "roaring",
- "ruvector-attention",
- "ruvector-core 2.1.0",
- "ruvector-gnn",
- "ruvector-graph",
- "ruvector-hyperbolic-hnsw",
- "ruvector-mincut 2.1.0",
- "ruvector-nervous-system",
- "ruvector-raft",
- "ruvector-sona 0.1.9 (registry+https://github.com/rust-lang/crates.io-index)",
  "ruvllm 2.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde",
  "serde_json",
  "sqlx",
  "tempfile",
+ "ternvector-attention",
+ "ternvector-core",
+ "ternvector-gnn",
+ "ternvector-graph",
+ "ternvector-hyperbolic-hnsw",
+ "ternvector-mincut",
+ "ternvector-nervous-system",
+ "ternvector-raft",
+ "ternvector-sona",
  "thiserror 2.0.18",
  "tokio",
  "tracing",
@@ -7625,7 +7626,7 @@ version = "0.1.0"
 dependencies = [
  "rand 0.8.5",
  "rand_chacha 0.3.1",
- "ruvector-consciousness",
+ "ternvector-consciousness",
 ]
 
 [[package]]
@@ -8237,9 +8238,9 @@ dependencies = [
  "ndarray 0.16.1",
  "rand 0.8.5",
  "rand_distr 0.4.3",
- "ruvector-core 2.1.0",
  "serde",
  "serde_json",
+ "ternvector-core",
  "thiserror 2.0.18",
  "tokio",
  "tracing",
@@ -8496,11 +8497,11 @@ dependencies = [
  "proptest",
  "rand 0.8.5",
  "rayon",
- "ruvector-mincut 0.1.30",
- "ruvector-mincut-gated-transformer 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde",
  "serde_json",
  "subtle",
+ "ternvector-mincut",
+ "ternvector-mincut-gated-transformer",
  "thiserror 2.0.18",
  "tokio",
  "tracing",
@@ -8771,395 +8772,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ruvector-attention"
-version = "2.1.0"
-dependencies = [
- "approx",
- "criterion 0.5.1",
- "napi",
- "napi-derive",
- "rand 0.8.5",
- "rayon",
- "ruvector-math",
- "serde",
- "thiserror 1.0.69",
-]
-
-[[package]]
-name = "ruvector-attention-node"
-version = "2.1.0"
-dependencies = [
- "napi",
- "napi-build",
- "napi-derive",
- "ruvector-attention",
- "serde",
- "serde_json",
- "tokio",
-]
-
-[[package]]
-name = "ruvector-attention-unified-wasm"
-version = "0.1.0"
-dependencies = [
- "console_error_panic_hook",
- "getrandom 0.2.17",
- "js-sys",
- "ruvector-attention",
- "ruvector-dag",
- "ruvector-gnn",
- "serde",
- "serde-wasm-bindgen",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-test",
- "web-sys",
- "wee_alloc",
-]
-
-[[package]]
-name = "ruvector-attention-wasm"
-version = "2.1.0"
-dependencies = [
- "console_error_panic_hook",
- "getrandom 0.2.17",
- "js-sys",
- "ruvector-attention",
- "serde",
- "serde-wasm-bindgen",
- "wasm-bindgen",
- "wasm-bindgen-test",
- "web-sys",
-]
-
-[[package]]
-name = "ruvector-attn-mincut"
-version = "2.1.0"
-dependencies = [
- "serde",
- "serde_json",
- "sha2 0.10.9",
-]
-
-[[package]]
-name = "ruvector-bench"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "byteorder",
- "chrono",
- "clap",
- "cognitum-gate-kernel 0.1.1",
- "console",
- "criterion 0.5.1",
- "hdf5",
- "hdrhistogram",
- "indicatif",
- "instant",
- "jemalloc-ctl",
- "plotters",
- "pprof",
- "rand 0.8.5",
- "rand_distr 0.4.3",
- "rayon",
- "ruvector-cognitive-container",
- "ruvector-coherence",
- "ruvector-core 2.1.0",
- "ruvector-mincut 2.1.0",
- "serde",
- "serde_json",
- "statistical",
- "sysinfo 0.31.4",
- "tabled",
- "tempfile",
- "thiserror 2.0.18",
- "tokio",
-]
-
-[[package]]
-name = "ruvector-benchmarks"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "bincode 2.0.1",
- "chrono",
- "clap",
- "console",
- "futures",
- "hdrhistogram",
- "indicatif",
- "lean-agentic",
- "plotters",
- "rand 0.8.5",
- "rand_distr 0.4.3",
- "rayon",
- "reqwest 0.11.27",
- "ruvector-core 2.1.0",
- "rvf-crypto",
- "rvf-types",
- "rvf-wire",
- "serde",
- "serde_json",
- "sha2 0.10.9",
- "statistical",
- "tempfile",
- "thiserror 2.0.18",
- "tokio",
- "tracing",
- "tracing-subscriber",
-]
-
-[[package]]
-name = "ruvector-cli"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "assert_cmd",
- "async-stream",
- "async-trait",
- "axum 0.7.9",
- "chrono",
- "clap",
- "colored 2.2.0",
- "console",
- "csv",
- "deadpool-postgres",
- "flate2",
- "futures",
- "http-body-util",
- "hyper 1.9.0",
- "hyper-util",
- "indicatif",
- "lru 0.16.3",
- "ndarray 0.16.1",
- "ndarray-npy",
- "predicates",
- "prettytable-rs",
- "rand 0.8.5",
- "ruvector-core 2.1.0",
- "ruvector-gnn",
- "ruvector-graph",
- "serde",
- "serde_json",
- "shellexpand",
- "tempfile",
- "thiserror 2.0.18",
- "tokio",
- "tokio-postgres",
- "toml",
- "tower 0.5.3",
- "tower-http 0.6.8",
- "tracing",
- "tracing-subscriber",
- "uuid",
-]
-
-[[package]]
-name = "ruvector-cloudrun-gpu"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "axum 0.7.9",
- "chrono",
- "clap",
- "console",
- "hdrhistogram",
- "indicatif",
- "rand 0.8.5",
- "rand_distr 0.4.3",
- "rayon",
- "ruvector-attention",
- "ruvector-core 2.1.0",
- "ruvector-gnn",
- "ruvector-graph",
- "serde",
- "serde_json",
- "sysinfo 0.31.4",
- "thiserror 2.0.18",
- "tokio",
- "tower 0.4.13",
- "tower-http 0.5.2",
- "tracing",
- "tracing-subscriber",
-]
-
-[[package]]
-name = "ruvector-cluster"
-version = "2.1.0"
-dependencies = [
- "async-trait",
- "bincode 2.0.1",
- "chrono",
- "dashmap 6.1.0",
- "futures",
- "parking_lot 0.12.5",
- "rand 0.8.5",
- "ruvector-core 2.1.0",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
- "tokio",
- "tracing",
- "uuid",
-]
-
-[[package]]
-name = "ruvector-cnn"
-version = "2.1.0"
-dependencies = [
- "criterion 0.5.1",
- "fastrand",
- "image 0.25.10",
- "nalgebra 0.33.3",
- "rand 0.8.5",
- "rand_distr 0.4.3",
- "serde",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-cnn-wasm"
-version = "0.1.0"
-dependencies = [
- "console_error_panic_hook",
- "getrandom 0.2.17",
- "js-sys",
- "ruvector-cnn",
- "serde",
- "serde-wasm-bindgen",
- "wasm-bindgen",
- "wasm-bindgen-test",
-]
-
-[[package]]
-name = "ruvector-cognitive-container"
-version = "2.1.0"
-dependencies = [
- "proptest",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-coherence"
-version = "2.1.0"
-dependencies = [
- "serde",
- "serde_json",
-]
-
-[[package]]
-name = "ruvector-collections"
-version = "2.1.0"
-dependencies = [
- "bincode 2.0.1",
- "chrono",
- "dashmap 6.1.0",
- "parking_lot 0.12.5",
- "ruvector-core 2.1.0",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
- "uuid",
-]
-
-[[package]]
-name = "ruvector-consciousness"
-version = "2.1.0"
-dependencies = [
- "approx",
- "criterion 0.5.1",
- "crossbeam",
- "getrandom 0.2.17",
- "proptest",
- "rand 0.8.5",
- "rayon",
- "ruvector-cognitive-container",
- "ruvector-coherence",
- "ruvector-math",
- "ruvector-mincut 2.1.0",
- "ruvector-solver",
- "ruvector-sparsifier",
- "serde",
- "thiserror 2.0.18",
- "tracing",
-]
-
-[[package]]
-name = "ruvector-consciousness-wasm"
-version = "2.1.0"
-dependencies = [
- "getrandom 0.2.17",
- "js-sys",
- "ruvector-consciousness",
- "serde",
- "serde-wasm-bindgen",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-test",
-]
-
-[[package]]
-name = "ruvector-core"
-version = "0.1.31"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6891c96a10df0c8d77b3004388f2f4e79bd8f9e09ee9565bd020cd8d4631d054"
-dependencies = [
- "anyhow",
- "bincode 2.0.1",
- "chrono",
- "dashmap 6.1.0",
- "ndarray 0.16.1",
- "once_cell",
- "parking_lot 0.12.5",
- "rand 0.8.5",
- "rand_distr 0.4.3",
- "rkyv",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
- "tracing",
- "uuid",
-]
-
-[[package]]
-name = "ruvector-core"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "bincode 2.0.1",
- "chrono",
- "criterion 0.5.1",
- "crossbeam",
- "dashmap 6.1.0",
- "hf-hub 0.3.2",
- "hnsw_rs",
- "memmap2",
- "mockall",
- "ndarray 0.16.1",
- "once_cell",
- "ort",
- "parking_lot 0.12.5",
- "proptest",
- "rand 0.8.5",
- "rand_distr 0.4.3",
- "rayon",
- "redb",
- "reqwest 0.11.27",
- "rkyv",
- "serde",
- "serde_json",
- "simsimd",
- "tempfile",
- "thiserror 2.0.18",
- "tokenizers 0.20.4",
- "tracing",
- "tracing-subscriber",
- "uuid",
-]
-
-[[package]]
 name = "ruvector-core"
 version = "2.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -9189,614 +8801,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ruvector-crv"
-version = "0.1.1"
-dependencies = [
- "approx",
- "ruvector-attention",
- "ruvector-gnn",
- "ruvector-mincut 2.1.0",
- "serde",
- "serde_json",
- "thiserror 1.0.69",
-]
-
-[[package]]
-name = "ruvector-dag"
-version = "2.1.0"
-dependencies = [
- "criterion 0.5.1",
- "crossbeam",
- "dashmap 5.5.3",
- "getrandom 0.2.17",
- "ndarray 0.15.6",
- "parking_lot 0.12.5",
- "pqcrypto-dilithium",
- "pqcrypto-kyber",
- "proptest",
- "rand 0.8.5",
- "ruvector-core 2.1.0",
- "serde",
- "serde_json",
- "sha2 0.10.9",
- "thiserror 1.0.69",
- "tokio",
- "tokio-test",
- "tracing",
- "zeroize",
-]
-
-[[package]]
-name = "ruvector-dag-wasm"
-version = "0.1.0"
-dependencies = [
- "bincode 1.3.3",
- "serde",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-test",
- "wee_alloc",
-]
-
-[[package]]
-name = "ruvector-decompiler"
-version = "2.1.0"
-dependencies = [
- "criterion 0.5.1",
- "memchr",
- "ndarray 0.16.1",
- "once_cell",
- "ort",
- "rayon",
- "regex",
- "ruvector-mincut 2.1.0",
- "serde",
- "serde_json",
- "sha3",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-decompiler-wasm"
-version = "2.1.0"
-dependencies = [
- "console_error_panic_hook",
- "getrandom 0.2.17",
- "ruvector-decompiler",
- "serde-wasm-bindgen",
- "serde_json",
- "wasm-bindgen",
-]
-
-[[package]]
-name = "ruvector-delta-consensus"
-version = "0.1.0"
-dependencies = [
- "bincode 2.0.1",
- "chrono",
- "criterion 0.6.0",
- "dashmap 6.1.0",
- "parking_lot 0.12.5",
- "proptest",
- "ruvector-delta-core",
- "serde",
- "smallvec 1.15.1",
- "thiserror 2.0.18",
- "tokio",
- "uuid",
-]
-
-[[package]]
-name = "ruvector-delta-core"
-version = "0.1.0"
-dependencies = [
- "arrayvec",
- "bincode 2.0.1",
- "criterion 0.6.0",
- "lz4_flex",
- "parking_lot 0.12.5",
- "proptest",
- "rand 0.8.5",
- "serde",
- "serde_json",
- "simsimd",
- "smallvec 1.15.1",
- "thiserror 2.0.18",
- "zstd",
-]
-
-[[package]]
-name = "ruvector-delta-graph"
-version = "0.1.0"
-dependencies = [
- "criterion 0.6.0",
- "dashmap 6.1.0",
- "parking_lot 0.12.5",
- "proptest",
- "rayon",
- "ruvector-delta-core",
- "serde",
- "serde_json",
- "smallvec 1.15.1",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-delta-index"
-version = "0.1.0"
-dependencies = [
- "bincode 2.0.1",
- "criterion 0.6.0",
- "dashmap 6.1.0",
- "parking_lot 0.12.5",
- "priority-queue 2.7.0",
- "proptest",
- "rand 0.8.5",
- "rand_xorshift 0.3.0",
- "rayon",
- "ruvector-delta-core",
- "serde",
- "simsimd",
- "smallvec 1.15.1",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-delta-wasm"
-version = "0.1.0"
-dependencies = [
- "console_error_panic_hook",
- "js-sys",
- "parking_lot 0.12.5",
- "rayon",
- "ruvector-delta-core",
- "serde",
- "serde-wasm-bindgen",
- "smallvec 1.15.1",
- "tracing",
- "tracing-wasm",
- "wasm-bindgen",
- "wasm-bindgen-futures",
- "wasm-bindgen-test",
-]
-
-[[package]]
-name = "ruvector-diskann"
-version = "2.1.0"
-dependencies = [
- "bincode 2.0.1",
- "bytemuck",
- "memmap2",
- "parking_lot 0.12.5",
- "rand 0.8.5",
- "rayon",
- "serde",
- "serde_json",
- "simsimd",
- "tempfile",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-diskann-node"
-version = "2.1.0"
-dependencies = [
- "napi",
- "napi-build",
- "napi-derive",
- "parking_lot 0.12.5",
- "ruvector-diskann",
- "serde",
- "serde_json",
- "tokio",
-]
-
-[[package]]
-name = "ruvector-dither"
-version = "0.1.0"
-dependencies = [
- "criterion 0.5.1",
-]
-
-[[package]]
-name = "ruvector-domain-expansion"
-version = "2.1.0"
-dependencies = [
- "criterion 0.5.1",
- "proptest",
- "rand 0.8.5",
- "rvf-crypto",
- "rvf-types",
- "rvf-wire",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-domain-expansion-wasm"
-version = "0.1.0"
-dependencies = [
- "js-sys",
- "rand 0.8.5",
- "ruvector-domain-expansion",
- "serde",
- "serde-wasm-bindgen",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-test",
-]
-
-[[package]]
-name = "ruvector-economy-wasm"
-version = "0.1.0"
-dependencies = [
- "console_error_panic_hook",
- "js-sys",
- "rustc-hash 2.1.2",
- "serde",
- "serde_json",
- "sha2 0.10.9",
- "wasm-bindgen",
- "wasm-bindgen-test",
-]
-
-[[package]]
-name = "ruvector-exotic-wasm"
-version = "2.1.0"
-dependencies = [
- "console_error_panic_hook",
- "getrandom 0.2.17",
- "getrandom 0.3.4",
- "js-sys",
- "rand 0.8.5",
- "serde",
- "serde-wasm-bindgen",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-test",
-]
-
-[[package]]
-name = "ruvector-filter"
-version = "2.1.0"
-dependencies = [
- "chrono",
- "dashmap 6.1.0",
- "ordered-float",
- "ruvector-core 2.1.0",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
- "uuid",
-]
-
-[[package]]
-name = "ruvector-fpga-transformer"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "criterion 0.5.1",
- "ed25519-dalek",
- "getrandom 0.2.17",
- "hex",
- "js-sys",
- "memmap2",
- "proptest",
- "rand 0.8.5",
- "rand_core 0.6.4",
- "serde",
- "serde_bytes",
- "serde_json",
- "sha2 0.10.9",
- "thiserror 2.0.18",
- "tokio",
- "tracing",
- "wasm-bindgen",
-]
-
-[[package]]
-name = "ruvector-fpga-transformer-wasm"
-version = "0.1.0"
-dependencies = [
- "getrandom 0.2.17",
- "js-sys",
- "ruvector-fpga-transformer",
- "serde",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-test",
-]
-
-[[package]]
-name = "ruvector-gnn"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "criterion 0.5.1",
- "dashmap 6.1.0",
- "libc",
- "memmap2",
- "napi",
- "napi-derive",
- "ndarray 0.16.1",
- "page_size",
- "parking_lot 0.12.5",
- "proptest",
- "rand 0.8.5",
- "rand_distr 0.4.3",
- "rayon",
- "ruvector-core 2.1.0",
- "serde",
- "serde_json",
- "tempfile",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-gnn-node"
-version = "2.1.0"
-dependencies = [
- "napi",
- "napi-build",
- "napi-derive",
- "ruvector-gnn",
- "serde_json",
-]
-
-[[package]]
-name = "ruvector-gnn-wasm"
-version = "2.1.0"
-dependencies = [
- "console_error_panic_hook",
- "getrandom 0.2.17",
- "getrandom 0.3.4",
- "js-sys",
- "ruvector-gnn",
- "serde",
- "serde-wasm-bindgen",
- "wasm-bindgen",
- "wasm-bindgen-test",
-]
-
-[[package]]
-name = "ruvector-graph"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "bincode 2.0.1",
- "blake3",
- "chrono",
- "criterion 0.5.1",
- "crossbeam",
- "csv",
- "dashmap 6.1.0",
- "futures",
- "hnsw_rs",
- "hyper 1.9.0",
- "lalrpop-util",
- "lru 0.16.3",
- "lz4",
- "memmap2",
- "mockall",
- "moka",
- "ndarray 0.16.1",
- "nom 7.1.3",
- "nom_locate",
- "num_cpus",
- "once_cell",
- "ordered-float",
- "parking_lot 0.12.5",
- "pest",
- "pest_derive",
- "pest_generator",
- "petgraph",
- "prometheus",
- "proptest",
- "prost",
- "rand 0.8.5",
- "rand_distr 0.4.3",
- "rayon",
- "redb",
- "rkyv",
- "roaring",
- "ruvector-cluster",
- "ruvector-core 2.1.0",
- "ruvector-raft",
- "ruvector-replication",
- "serde",
- "serde_json",
- "simsimd",
- "tempfile",
- "thiserror 2.0.18",
- "tokio",
- "tokio-test",
- "tonic",
- "tower 0.4.13",
- "tracing",
- "tracing-subscriber",
- "uuid",
- "xxhash-rust",
- "zstd",
-]
-
-[[package]]
-name = "ruvector-graph-node"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "futures",
- "napi",
- "napi-build",
- "napi-derive",
- "ruvector-core 2.1.0",
- "ruvector-graph",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
- "tokio",
- "tracing",
- "uuid",
-]
-
-[[package]]
-name = "ruvector-graph-transformer"
-version = "2.1.0"
-dependencies = [
- "proptest",
- "rand 0.8.5",
- "ruvector-attention",
- "ruvector-coherence",
- "ruvector-gnn",
- "ruvector-mincut 2.1.0",
- "ruvector-solver",
- "ruvector-verified",
- "serde",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-graph-transformer-node"
-version = "2.1.0"
-dependencies = [
- "napi",
- "napi-build",
- "napi-derive",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-graph-transformer-wasm"
-version = "2.1.0"
-dependencies = [
- "js-sys",
- "serde",
- "serde-wasm-bindgen",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-test",
-]
-
-[[package]]
-name = "ruvector-graph-wasm"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "console_error_panic_hook",
- "getrandom 0.2.17",
- "getrandom 0.3.4",
- "js-sys",
- "parking_lot 0.12.5",
- "regex",
- "ruvector-core 2.1.0",
- "ruvector-graph",
- "serde",
- "serde-wasm-bindgen",
- "serde_json",
- "thiserror 2.0.18",
- "tracing-wasm",
- "uuid",
- "wasm-bindgen",
- "wasm-bindgen-futures",
- "wasm-bindgen-test",
- "web-sys",
-]
-
-[[package]]
-name = "ruvector-hyperbolic-hnsw"
-version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e941df9ae71909a551c5ff49ff0c778d2e52cabe11ecb9d027eb921d8c22c772"
-dependencies = [
- "nalgebra 0.34.2",
- "ndarray 0.17.2",
- "rand 0.8.5",
- "rand_distr 0.4.3",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-learning-wasm"
-version = "0.1.0"
-dependencies = [
- "js-sys",
- "serde",
- "serde-wasm-bindgen",
- "wasm-bindgen",
- "wasm-bindgen-test",
-]
-
-[[package]]
-name = "ruvector-math"
-version = "2.1.0"
-dependencies = [
- "approx",
- "criterion 0.5.1",
- "nalgebra 0.33.3",
- "proptest",
- "rand 0.8.5",
- "rand_distr 0.4.3",
- "rayon",
- "serde",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-math-wasm"
-version = "2.1.0"
-dependencies = [
- "console_error_panic_hook",
- "getrandom 0.2.17",
- "js-sys",
- "rayon",
- "ruvector-math",
- "serde",
- "serde-wasm-bindgen",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-rayon",
- "wasm-bindgen-test",
- "web-sys",
-]
-
-[[package]]
-name = "ruvector-metrics"
-version = "2.1.0"
-dependencies = [
- "chrono",
- "lazy_static",
- "prometheus",
- "serde",
- "serde_json",
-]
-
-[[package]]
-name = "ruvector-mincut"
-version = "0.1.30"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "60ac9cf707adadfe79a967ed3b2a44023d29a38d1412d517846863dd301f9079"
-dependencies = [
- "anyhow",
- "crossbeam",
- "dashmap 6.1.0",
- "ordered-float",
- "parking_lot 0.12.5",
- "petgraph",
- "rand 0.8.5",
- "rayon",
- "roaring",
- "ruvector-core 0.1.31",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
- "tracing",
-]
-
-[[package]]
 name = "ruvector-mincut"
 version = "2.0.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -9811,509 +8815,11 @@ dependencies = [
  "rand 0.8.5",
  "rayon",
  "roaring",
- "ruvector-core 2.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "ruvector-core",
  "serde",
  "serde_json",
  "thiserror 2.0.18",
  "tracing",
-]
-
-[[package]]
-name = "ruvector-mincut"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "criterion 0.5.1",
- "crossbeam",
- "dashmap 6.1.0",
- "mockall",
- "ordered-float",
- "parking_lot 0.12.5",
- "petgraph",
- "proptest",
- "rand 0.8.5",
- "rayon",
- "roaring",
- "ruvector-core 2.1.0",
- "ruvector-graph",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
- "tracing",
-]
-
-[[package]]
-name = "ruvector-mincut-gated-transformer"
-version = "0.1.0"
-dependencies = [
- "criterion 0.5.1",
- "getrandom 0.2.17",
- "proptest",
- "rand 0.8.5",
- "serde",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-mincut-gated-transformer"
-version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "af87e661be104daa3061df958f1077c5b45adf183ffa5b0da0e9bab20620430e"
-dependencies = [
- "serde",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-mincut-gated-transformer-wasm"
-version = "0.1.0"
-dependencies = [
- "console_error_panic_hook",
- "js-sys",
- "ruvector-mincut-gated-transformer 0.1.0",
- "serde",
- "serde-wasm-bindgen",
- "wasm-bindgen",
- "wasm-bindgen-test",
-]
-
-[[package]]
-name = "ruvector-mincut-node"
-version = "2.1.0"
-dependencies = [
- "napi",
- "napi-build",
- "napi-derive",
- "ruvector-mincut 2.1.0",
- "serde",
- "serde_json",
-]
-
-[[package]]
-name = "ruvector-mincut-wasm"
-version = "2.1.0"
-dependencies = [
- "console_error_panic_hook",
- "getrandom 0.2.17",
- "js-sys",
- "ruvector-mincut 2.1.0",
- "serde",
- "serde-wasm-bindgen",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-futures",
-]
-
-[[package]]
-name = "ruvector-nervous-system"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "approx",
- "bincode 2.0.1",
- "criterion 0.5.1",
- "ndarray 0.16.1",
- "parking_lot 0.12.5",
- "proptest",
- "rand 0.8.5",
- "rand_distr 0.4.3",
- "rayon",
- "serde",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-nervous-system-wasm"
-version = "0.1.0"
-dependencies = [
- "console_error_panic_hook",
- "getrandom 0.2.17",
- "js-sys",
- "rand 0.8.5",
- "serde",
- "serde-wasm-bindgen",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-test",
- "web-sys",
-]
-
-[[package]]
-name = "ruvector-node"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "napi",
- "napi-build",
- "napi-derive",
- "ruvector-collections",
- "ruvector-core 2.1.0",
- "ruvector-filter",
- "ruvector-metrics",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
- "tokio",
- "tracing",
-]
-
-[[package]]
-name = "ruvector-postgres"
-version = "0.3.0"
-dependencies = [
- "approx",
- "bincode 1.3.3",
- "bitvec",
- "chrono",
- "criterion 0.5.1",
- "crossbeam",
- "dashmap 6.1.0",
- "fastembed",
- "half 2.7.1",
- "home",
- "lazy_static",
- "memmap2",
- "once_cell",
- "ordered-float",
- "parking_lot 0.12.5",
- "pgrx",
- "pgrx-tests",
- "priority-queue 2.7.0",
- "proptest",
- "rand 0.8.5",
- "rand_chacha 0.3.1",
- "rayon",
- "rkyv",
- "ruvector-attention",
- "ruvector-domain-expansion",
- "ruvector-math",
- "ruvector-mincut-gated-transformer 0.1.0",
- "ruvector-solver",
- "ruvector-sona 0.1.9",
- "serde",
- "serde_json",
- "simsimd",
- "tempfile",
- "thiserror 1.0.69",
- "tracing",
-]
-
-[[package]]
-name = "ruvector-profiler"
-version = "2.1.0"
-dependencies = [
- "serde",
- "serde_json",
- "tempfile",
-]
-
-[[package]]
-name = "ruvector-raft"
-version = "2.1.0"
-dependencies = [
- "bincode 2.0.1",
- "chrono",
- "dashmap 6.1.0",
- "futures",
- "parking_lot 0.12.5",
- "rand 0.8.5",
- "ruvector-core 2.1.0",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
- "tokio",
- "tracing",
- "uuid",
-]
-
-[[package]]
-name = "ruvector-replication"
-version = "2.1.0"
-dependencies = [
- "bincode 2.0.1",
- "chrono",
- "dashmap 6.1.0",
- "futures",
- "parking_lot 0.12.5",
- "rand 0.8.5",
- "ruvector-core 2.1.0",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
- "tokio",
- "tracing",
- "uuid",
-]
-
-[[package]]
-name = "ruvector-robotics"
-version = "0.1.0"
-dependencies = [
- "criterion 0.5.1",
- "rand 0.8.5",
- "ruvector-domain-expansion",
- "rvf-runtime",
- "rvf-types",
- "serde",
- "serde_json",
- "tempfile",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-robotics-examples"
-version = "0.1.0"
-dependencies = [
- "rand 0.8.5",
- "ruvector-robotics",
- "serde_json",
-]
-
-[[package]]
-name = "ruvector-router-cli"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "chrono",
- "clap",
- "colored 2.2.0",
- "rand 0.8.5",
- "ruvector-router-core",
- "serde_json",
- "tracing",
- "tracing-subscriber",
-]
-
-[[package]]
-name = "ruvector-router-core"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "bincode 2.0.1",
- "chrono",
- "criterion 0.5.1",
- "crossbeam",
- "memmap2",
- "ndarray 0.15.6",
- "parking_lot 0.12.5",
- "proptest",
- "rand 0.8.5",
- "rayon",
- "redb",
- "rkyv",
- "serde",
- "serde_json",
- "simsimd",
- "tempfile",
- "thiserror 2.0.18",
- "tracing",
- "tracing-subscriber",
- "uuid",
-]
-
-[[package]]
-name = "ruvector-router-ffi"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "chrono",
- "napi",
- "napi-build",
- "napi-derive",
- "ruvector-router-core",
- "serde",
- "serde_json",
- "tokio",
-]
-
-[[package]]
-name = "ruvector-router-wasm"
-version = "2.1.0"
-dependencies = [
- "js-sys",
- "ruvector-router-core",
- "serde",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-futures",
- "wasm-bindgen-test",
- "web-sys",
-]
-
-[[package]]
-name = "ruvector-scipix"
-version = "2.1.0"
-dependencies = [
- "ab_glyph",
- "anyhow",
- "approx",
- "assert_cmd",
- "async-trait",
- "axum 0.7.9",
- "axum-streams",
- "axum-test 15.7.4",
- "base64 0.22.1",
- "chrono",
- "clap",
- "clap_complete",
- "colored 2.2.0",
- "comfy-table",
- "console",
- "console_error_panic_hook",
- "criterion 0.5.1",
- "dashmap 6.1.0",
- "dialoguer",
- "dirs 5.0.1",
- "dotenvy",
- "env_logger",
- "futures",
- "getrandom 0.3.4",
- "glob",
- "governor",
- "hmac 0.12.1",
- "hyper 1.9.0",
- "image 0.25.10",
- "imageproc",
- "indicatif",
- "js-sys",
- "memmap2",
- "mockall",
- "moka",
- "nalgebra 0.33.3",
- "ndarray 0.16.1",
- "nom 7.1.3",
- "nonzero_ext",
- "num_cpus",
- "once_cell",
- "ort",
- "parking_lot 0.12.5",
- "predicates",
- "proptest",
- "rand 0.8.5",
- "rayon",
- "reqwest 0.12.28",
- "rusttype",
- "serde",
- "serde-wasm-bindgen",
- "serde_json",
- "sha2 0.10.9",
- "tempfile",
- "thiserror 2.0.18",
- "tokio",
- "toml",
- "tower 0.4.13",
- "tower-http 0.5.2",
- "tracing",
- "tracing-subscriber",
- "tracing-wasm",
- "uuid",
- "validator",
- "wasm-bindgen",
- "wasm-bindgen-futures",
- "web-sys",
-]
-
-[[package]]
-name = "ruvector-server"
-version = "2.1.0"
-dependencies = [
- "axum 0.7.9",
- "dashmap 6.1.0",
- "parking_lot 0.12.5",
- "ruvector-core 2.1.0",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
- "tokio",
- "tower 0.5.3",
- "tower-http 0.6.8",
- "tracing",
- "uuid",
-]
-
-[[package]]
-name = "ruvector-snapshot"
-version = "2.1.0"
-dependencies = [
- "async-trait",
- "bincode 2.0.1",
- "chrono",
- "flate2",
- "ruvector-core 2.1.0",
- "serde",
- "serde_json",
- "sha2 0.10.9",
- "thiserror 2.0.18",
- "tokio",
- "uuid",
-]
-
-[[package]]
-name = "ruvector-solver"
-version = "2.1.0"
-dependencies = [
- "approx",
- "criterion 0.5.1",
- "crossbeam",
- "dashmap 6.1.0",
- "getrandom 0.2.17",
- "nalgebra 0.33.3",
- "parking_lot 0.12.5",
- "proptest",
- "rand 0.8.5",
- "rayon",
- "serde",
- "thiserror 2.0.18",
- "tracing",
-]
-
-[[package]]
-name = "ruvector-solver-node"
-version = "2.1.0"
-dependencies = [
- "napi",
- "napi-build",
- "napi-derive",
- "ruvector-solver",
- "serde",
- "serde_json",
- "tokio",
-]
-
-[[package]]
-name = "ruvector-solver-wasm"
-version = "2.1.0"
-dependencies = [
- "getrandom 0.2.17",
- "js-sys",
- "ruvector-solver",
- "serde",
- "serde-wasm-bindgen",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-test",
- "web-sys",
-]
-
-[[package]]
-name = "ruvector-sona"
-version = "0.1.9"
-dependencies = [
- "console_error_panic_hook",
- "criterion 0.5.1",
- "crossbeam",
- "getrandom 0.2.17",
- "js-sys",
- "napi",
- "napi-derive",
- "once_cell",
- "parking_lot 0.12.5",
- "rand 0.8.5",
- "serde",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-futures",
- "web-sys",
 ]
 
 [[package]]
@@ -10328,185 +8834,6 @@ dependencies = [
  "rand 0.8.5",
  "serde",
  "serde_json",
-]
-
-[[package]]
-name = "ruvector-sparse-inference"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "byteorder",
- "criterion 0.5.1",
- "half 2.7.1",
- "memmap2",
- "mockall",
- "ndarray 0.16.1",
- "parking_lot 0.12.5",
- "proptest",
- "rand 0.8.5",
- "rand_distr 0.4.3",
- "rayon",
- "rkyv",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
- "tracing",
-]
-
-[[package]]
-name = "ruvector-sparsifier"
-version = "2.1.0"
-dependencies = [
- "approx",
- "criterion 0.5.1",
- "dashmap 6.1.0",
- "ordered-float",
- "parking_lot 0.12.5",
- "proptest",
- "rand 0.8.5",
- "rayon",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
- "tracing",
-]
-
-[[package]]
-name = "ruvector-sparsifier-wasm"
-version = "2.1.0"
-dependencies = [
- "console_error_panic_hook",
- "getrandom 0.2.17",
- "js-sys",
- "ruvector-sparsifier",
- "serde",
- "serde-wasm-bindgen",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-futures",
-]
-
-[[package]]
-name = "ruvector-temporal-tensor"
-version = "2.1.0"
-
-[[package]]
-name = "ruvector-tiny-dancer-core"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "bytemuck",
- "chrono",
- "criterion 0.5.1",
- "crossbeam",
- "dashmap 6.1.0",
- "memmap2",
- "ndarray 0.16.1",
- "once_cell",
- "parking_lot 0.12.5",
- "proptest",
- "rand 0.8.5",
- "rand_distr 0.4.3",
- "rayon",
- "redb",
- "rusqlite",
- "serde",
- "serde_json",
- "simsimd",
- "tempfile",
- "thiserror 2.0.18",
- "tracing",
- "tracing-subscriber",
- "uuid",
-]
-
-[[package]]
-name = "ruvector-tiny-dancer-node"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "chrono",
- "napi",
- "napi-build",
- "napi-derive",
- "parking_lot 0.12.5",
- "ruvector-tiny-dancer-core",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
- "tokio",
-]
-
-[[package]]
-name = "ruvector-tiny-dancer-wasm"
-version = "2.1.0"
-dependencies = [
- "js-sys",
- "ruvector-tiny-dancer-core",
- "serde",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-futures",
- "wasm-bindgen-test",
- "web-sys",
-]
-
-[[package]]
-name = "ruvector-verified"
-version = "0.1.1"
-dependencies = [
- "criterion 0.5.1",
- "lean-agentic",
- "proptest",
- "ruvector-cognitive-container",
- "ruvector-coherence",
- "ruvector-core 2.1.0",
- "serde",
- "serde_json",
- "thiserror 2.0.18",
-]
-
-[[package]]
-name = "ruvector-verified-wasm"
-version = "0.1.1"
-dependencies = [
- "js-sys",
- "ruvector-verified",
- "serde",
- "serde-wasm-bindgen",
- "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-test",
- "web-sys",
-]
-
-[[package]]
-name = "ruvector-wasm"
-version = "2.1.0"
-dependencies = [
- "anyhow",
- "base64 0.22.1",
- "console_error_panic_hook",
- "ed25519-dalek",
- "getrandom 0.2.17",
- "getrandom 0.3.4",
- "hex",
- "js-sys",
- "parking_lot 0.12.5",
- "rand 0.8.5",
- "ruvector-collections",
- "ruvector-core 2.1.0",
- "ruvector-filter",
- "serde",
- "serde-wasm-bindgen",
- "serde_json",
- "sha2 0.10.9",
- "thiserror 2.0.18",
- "tracing-wasm",
- "wasm-bindgen",
- "wasm-bindgen-futures",
- "wasm-bindgen-test",
- "web-sys",
 ]
 
 [[package]]
@@ -10662,9 +8989,9 @@ version = "0.1.0"
 dependencies = [
  "criterion 0.5.1",
  "proptest",
- "ruvector-coherence",
  "ruvix-cap",
  "ruvix-types",
+ "ternvector-coherence",
 ]
 
 [[package]]
@@ -10723,11 +9050,6 @@ dependencies = [
  "rand 0.8.5",
  "rayon",
  "regex",
- "ruvector-attention",
- "ruvector-core 2.1.0",
- "ruvector-gnn",
- "ruvector-graph",
- "ruvector-sona 0.1.9",
  "serde",
  "serde_json",
  "sha2 0.10.9",
@@ -10735,6 +9057,11 @@ dependencies = [
  "tempfile",
  "ternlang-ml",
  "ternlang-runtime",
+ "ternvector-attention",
+ "ternvector-core",
+ "ternvector-gnn",
+ "ternvector-graph",
+ "ternvector-sona",
  "thiserror 2.0.18",
  "tokenizers 0.20.4",
  "tokio",
@@ -10764,8 +9091,8 @@ dependencies = [
  "parking_lot 0.12.5",
  "rand 0.8.5",
  "regex",
- "ruvector-core 2.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "ruvector-sona 0.1.9 (registry+https://github.com/rust-lang/crates.io-index)",
+ "ruvector-core",
+ "ruvector-sona",
  "serde",
  "serde_json",
  "sha2 0.10.9",
@@ -10984,7 +9311,6 @@ dependencies = [
  "dashmap 6.1.0",
  "mockall",
  "parking_lot 0.12.5",
- "ruvector-sona 0.1.9",
  "rvagent-backends",
  "rvagent-core",
  "serde",
@@ -10993,6 +9319,7 @@ dependencies = [
  "sha3",
  "smallvec 1.15.1",
  "tempfile",
+ "ternvector-sona",
  "thiserror 2.0.18",
  "tokio",
  "tracing",
@@ -11066,18 +9393,18 @@ dependencies = [
  "ndarray 0.16.1",
  "rand 0.8.5",
  "rand_distr 0.4.3",
- "ruvector-attention",
- "ruvector-collections",
- "ruvector-core 2.1.0",
- "ruvector-dag",
- "ruvector-filter",
- "ruvector-gnn",
- "ruvector-graph",
- "ruvector-math",
- "ruvector-solver",
  "serde",
  "serde_json",
  "tempfile",
+ "ternvector-attention",
+ "ternvector-collections",
+ "ternvector-core",
+ "ternvector-dag",
+ "ternvector-filter",
+ "ternvector-gnn",
+ "ternvector-graph",
+ "ternvector-math",
+ "ternvector-solver",
  "thiserror 2.0.18",
  "tokio",
  "tracing",
@@ -11131,13 +9458,13 @@ dependencies = [
  "anyhow",
  "criterion 0.5.1",
  "rand 0.8.5",
- "ruvector-verified",
  "rvf-ebpf",
  "rvf-kernel",
  "rvf-quant",
  "rvf-runtime",
  "rvf-types",
  "tempfile",
+ "ternvector-verified",
  "tracing",
  "tracing-subscriber",
 ]
@@ -11182,12 +9509,12 @@ dependencies = [
  "js-sys",
  "once_cell",
  "parking_lot 0.12.5",
- "ruvector-core 2.1.0",
  "rvf-runtime",
  "rvf-types",
  "serde",
  "serde-wasm-bindgen",
  "serde_json",
+ "ternvector-core",
  "thiserror 1.0.69",
  "wasm-bindgen",
  "wasm-bindgen-futures",
@@ -12077,7 +10404,7 @@ name = "subpolynomial-time-mincut-demo"
 version = "0.1.0"
 dependencies = [
  "rand 0.8.5",
- "ruvector-mincut 2.1.0",
+ "ternvector-mincut",
 ]
 
 [[package]]
@@ -12434,6 +10761,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "ternlang-gate"
+version = "0.1.0"
+
+[[package]]
 name = "ternlang-ml"
 version = "0.1.0"
 dependencies = [
@@ -12449,6 +10780,1623 @@ dependencies = [
  "serde",
  "serde_json",
  "ternlang-core",
+]
+
+[[package]]
+name = "ternvector-attention"
+version = "2.1.0"
+dependencies = [
+ "approx",
+ "criterion 0.5.1",
+ "napi",
+ "napi-derive",
+ "rand 0.8.5",
+ "rayon",
+ "serde",
+ "ternvector-math",
+ "thiserror 1.0.69",
+]
+
+[[package]]
+name = "ternvector-attention-node"
+version = "2.1.0"
+dependencies = [
+ "napi",
+ "napi-build",
+ "napi-derive",
+ "serde",
+ "serde_json",
+ "ternvector-attention",
+ "tokio",
+]
+
+[[package]]
+name = "ternvector-attention-unified-wasm"
+version = "0.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "getrandom 0.2.17",
+ "js-sys",
+ "serde",
+ "serde-wasm-bindgen",
+ "serde_json",
+ "ternvector-attention",
+ "ternvector-dag",
+ "ternvector-gnn",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+ "web-sys",
+ "wee_alloc",
+]
+
+[[package]]
+name = "ternvector-attention-wasm"
+version = "2.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "getrandom 0.2.17",
+ "js-sys",
+ "serde",
+ "serde-wasm-bindgen",
+ "ternvector-attention",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+ "web-sys",
+]
+
+[[package]]
+name = "ternvector-attn-mincut"
+version = "2.1.0"
+dependencies = [
+ "serde",
+ "serde_json",
+ "sha2 0.10.9",
+]
+
+[[package]]
+name = "ternvector-bench"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "byteorder",
+ "chrono",
+ "clap",
+ "cognitum-gate-kernel 0.1.1",
+ "console",
+ "criterion 0.5.1",
+ "hdf5",
+ "hdrhistogram",
+ "indicatif",
+ "instant",
+ "jemalloc-ctl",
+ "plotters",
+ "pprof",
+ "rand 0.8.5",
+ "rand_distr 0.4.3",
+ "rayon",
+ "serde",
+ "serde_json",
+ "statistical",
+ "sysinfo 0.31.4",
+ "tabled",
+ "tempfile",
+ "ternvector-cognitive-container",
+ "ternvector-coherence",
+ "ternvector-core",
+ "ternvector-mincut",
+ "thiserror 2.0.18",
+ "tokio",
+]
+
+[[package]]
+name = "ternvector-benchmarks"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "bincode 2.0.1",
+ "chrono",
+ "clap",
+ "console",
+ "futures",
+ "hdrhistogram",
+ "indicatif",
+ "lean-agentic",
+ "plotters",
+ "rand 0.8.5",
+ "rand_distr 0.4.3",
+ "rayon",
+ "reqwest 0.11.27",
+ "rvf-crypto",
+ "rvf-types",
+ "rvf-wire",
+ "serde",
+ "serde_json",
+ "sha2 0.10.9",
+ "statistical",
+ "tempfile",
+ "ternvector-core",
+ "thiserror 2.0.18",
+ "tokio",
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
+name = "ternvector-cli"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "assert_cmd",
+ "async-stream",
+ "async-trait",
+ "axum 0.7.9",
+ "chrono",
+ "clap",
+ "colored 2.2.0",
+ "console",
+ "csv",
+ "deadpool-postgres",
+ "flate2",
+ "futures",
+ "http-body-util",
+ "hyper 1.9.0",
+ "hyper-util",
+ "indicatif",
+ "lru 0.16.3",
+ "ndarray 0.16.1",
+ "ndarray-npy",
+ "predicates",
+ "prettytable-rs",
+ "rand 0.8.5",
+ "serde",
+ "serde_json",
+ "shellexpand",
+ "tempfile",
+ "ternvector-core",
+ "ternvector-gnn",
+ "ternvector-graph",
+ "thiserror 2.0.18",
+ "tokio",
+ "tokio-postgres",
+ "toml",
+ "tower 0.5.3",
+ "tower-http 0.6.8",
+ "tracing",
+ "tracing-subscriber",
+ "uuid",
+]
+
+[[package]]
+name = "ternvector-cloudrun-gpu"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "axum 0.7.9",
+ "chrono",
+ "clap",
+ "console",
+ "hdrhistogram",
+ "indicatif",
+ "rand 0.8.5",
+ "rand_distr 0.4.3",
+ "rayon",
+ "serde",
+ "serde_json",
+ "sysinfo 0.31.4",
+ "ternvector-attention",
+ "ternvector-core",
+ "ternvector-gnn",
+ "ternvector-graph",
+ "thiserror 2.0.18",
+ "tokio",
+ "tower 0.4.13",
+ "tower-http 0.5.2",
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
+name = "ternvector-cluster"
+version = "2.1.0"
+dependencies = [
+ "async-trait",
+ "bincode 2.0.1",
+ "chrono",
+ "dashmap 6.1.0",
+ "futures",
+ "parking_lot 0.12.5",
+ "rand 0.8.5",
+ "serde",
+ "serde_json",
+ "ternvector-core",
+ "thiserror 2.0.18",
+ "tokio",
+ "tracing",
+ "uuid",
+]
+
+[[package]]
+name = "ternvector-cnn"
+version = "2.1.0"
+dependencies = [
+ "criterion 0.5.1",
+ "fastrand",
+ "image 0.25.10",
+ "nalgebra 0.33.3",
+ "rand 0.8.5",
+ "rand_distr 0.4.3",
+ "serde",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "ternvector-cnn-wasm"
+version = "0.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "getrandom 0.2.17",
+ "js-sys",
+ "serde",
+ "serde-wasm-bindgen",
+ "ternvector-cnn",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+]
+
+[[package]]
+name = "ternvector-cognitive-container"
+version = "2.1.0"
+dependencies = [
+ "proptest",
+ "serde",
+ "serde_json",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "ternvector-coherence"
+version = "2.1.0"
+dependencies = [
+ "serde",
+ "serde_json",
+]
+
+[[package]]
+name = "ternvector-collections"
+version = "2.1.0"
+dependencies = [
+ "bincode 2.0.1",
+ "chrono",
+ "dashmap 6.1.0",
+ "parking_lot 0.12.5",
+ "serde",
+ "serde_json",
+ "ternvector-core",
+ "thiserror 2.0.18",
+ "uuid",
+]
+
+[[package]]
+name = "ternvector-consciousness"
+version = "2.1.0"
+dependencies = [
+ "approx",
+ "criterion 0.5.1",
+ "crossbeam",
+ "getrandom 0.2.17",
+ "proptest",
+ "rand 0.8.5",
+ "rayon",
+ "serde",
+ "ternvector-cognitive-container",
+ "ternvector-coherence",
+ "ternvector-math",
+ "ternvector-mincut",
+ "ternvector-solver",
+ "ternvector-sparsifier",
+ "thiserror 2.0.18",
+ "tracing",
+]
+
+[[package]]
+name = "ternvector-consciousness-wasm"
+version = "2.1.0"
+dependencies = [
+ "getrandom 0.2.17",
+ "js-sys",
+ "serde",
+ "serde-wasm-bindgen",
+ "serde_json",
+ "ternvector-consciousness",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+]
+
+[[package]]
+name = "ternvector-core"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "bincode 2.0.1",
+ "chrono",
+ "criterion 0.5.1",
+ "crossbeam",
+ "dashmap 6.1.0",
+ "hf-hub 0.3.2",
+ "hnsw_rs",
+ "memmap2",
+ "mockall",
+ "ndarray 0.16.1",
+ "once_cell",
+ "ort",
+ "parking_lot 0.12.5",
+ "proptest",
+ "rand 0.8.5",
+ "rand_distr 0.4.3",
+ "rayon",
+ "redb",
+ "reqwest 0.11.27",
+ "rkyv",
+ "serde",
+ "serde_json",
+ "simsimd",
+ "tempfile",
+ "thiserror 2.0.18",
+ "tokenizers 0.20.4",
+ "tracing",
+ "tracing-subscriber",
+ "uuid",
+]
+
+[[package]]
+name = "ternvector-crv"
+version = "0.1.1"
+dependencies = [
+ "approx",
+ "serde",
+ "serde_json",
+ "ternvector-attention",
+ "ternvector-gnn",
+ "ternvector-mincut",
+ "thiserror 1.0.69",
+]
+
+[[package]]
+name = "ternvector-dag"
+version = "2.1.0"
+dependencies = [
+ "criterion 0.5.1",
+ "crossbeam",
+ "dashmap 5.5.3",
+ "getrandom 0.2.17",
+ "ndarray 0.15.6",
+ "parking_lot 0.12.5",
+ "pqcrypto-dilithium",
+ "pqcrypto-kyber",
+ "proptest",
+ "rand 0.8.5",
+ "serde",
+ "serde_json",
+ "sha2 0.10.9",
+ "ternvector-core",
+ "thiserror 1.0.69",
+ "tokio",
+ "tokio-test",
+ "tracing",
+ "zeroize",
+]
+
+[[package]]
+name = "ternvector-dag-wasm"
+version = "0.1.0"
+dependencies = [
+ "bincode 1.3.3",
+ "serde",
+ "serde_json",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+ "wee_alloc",
+]
+
+[[package]]
+name = "ternvector-decompiler"
+version = "2.1.0"
+dependencies = [
+ "criterion 0.5.1",
+ "memchr",
+ "ndarray 0.16.1",
+ "once_cell",
+ "ort",
+ "rayon",
+ "regex",
+ "serde",
+ "serde_json",
+ "sha3",
+ "ternvector-mincut",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "ternvector-decompiler-wasm"
+version = "2.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "getrandom 0.2.17",
+ "serde-wasm-bindgen",
+ "serde_json",
+ "ternvector-decompiler",
+ "wasm-bindgen",
+]
+
+[[package]]
+name = "ternvector-delta-consensus"
+version = "0.1.0"
+dependencies = [
+ "bincode 2.0.1",
+ "chrono",
+ "criterion 0.6.0",
+ "dashmap 6.1.0",
+ "parking_lot 0.12.5",
+ "proptest",
+ "serde",
+ "smallvec 1.15.1",
+ "ternvector-delta-core",
+ "thiserror 2.0.18",
+ "tokio",
+ "uuid",
+]
+
+[[package]]
+name = "ternvector-delta-core"
+version = "0.1.0"
+dependencies = [
+ "arrayvec",
+ "bincode 2.0.1",
+ "criterion 0.6.0",
+ "lz4_flex",
+ "parking_lot 0.12.5",
+ "proptest",
+ "rand 0.8.5",
+ "serde",
+ "serde_json",
+ "simsimd",
+ "smallvec 1.15.1",
+ "thiserror 2.0.18",
+ "zstd",
+]
+
+[[package]]
+name = "ternvector-delta-graph"
+version = "0.1.0"
+dependencies = [
+ "criterion 0.6.0",
+ "dashmap 6.1.0",
+ "parking_lot 0.12.5",
+ "proptest",
+ "rayon",
+ "serde",
+ "serde_json",
+ "smallvec 1.15.1",
+ "ternvector-delta-core",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "ternvector-delta-index"
+version = "0.1.0"
+dependencies = [
+ "bincode 2.0.1",
+ "criterion 0.6.0",
+ "dashmap 6.1.0",
+ "parking_lot 0.12.5",
+ "priority-queue 2.7.0",
+ "proptest",
+ "rand 0.8.5",
+ "rand_xorshift 0.3.0",
+ "rayon",
+ "serde",
+ "simsimd",
+ "smallvec 1.15.1",
+ "ternvector-delta-core",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "ternvector-delta-wasm"
+version = "0.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "js-sys",
+ "parking_lot 0.12.5",
+ "rayon",
+ "serde",
+ "serde-wasm-bindgen",
+ "smallvec 1.15.1",
+ "ternvector-delta-core",
+ "tracing",
+ "tracing-wasm",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "wasm-bindgen-test",
+]
+
+[[package]]
+name = "ternvector-diskann"
+version = "2.1.0"
+dependencies = [
+ "bincode 2.0.1",
+ "bytemuck",
+ "memmap2",
+ "parking_lot 0.12.5",
+ "rand 0.8.5",
+ "rayon",
+ "serde",
+ "serde_json",
+ "simsimd",
+ "tempfile",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "ternvector-diskann-node"
+version = "2.1.0"
+dependencies = [
+ "napi",
+ "napi-build",
+ "napi-derive",
+ "parking_lot 0.12.5",
+ "serde",
+ "serde_json",
+ "ternvector-diskann",
+ "tokio",
+]
+
+[[package]]
+name = "ternvector-dither"
+version = "0.1.0"
+dependencies = [
+ "criterion 0.5.1",
+]
+
+[[package]]
+name = "ternvector-domain-expansion"
+version = "2.1.0"
+dependencies = [
+ "criterion 0.5.1",
+ "proptest",
+ "rand 0.8.5",
+ "rvf-crypto",
+ "rvf-types",
+ "rvf-wire",
+ "serde",
+ "serde_json",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "ternvector-domain-expansion-wasm"
+version = "0.1.0"
+dependencies = [
+ "js-sys",
+ "rand 0.8.5",
+ "serde",
+ "serde-wasm-bindgen",
+ "serde_json",
+ "ternvector-domain-expansion",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+]
+
+[[package]]
+name = "ternvector-economy-wasm"
+version = "0.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "js-sys",
+ "rustc-hash 2.1.2",
+ "serde",
+ "serde_json",
+ "sha2 0.10.9",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+]
+
+[[package]]
+name = "ternvector-exotic-wasm"
+version = "2.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "getrandom 0.2.17",
+ "getrandom 0.3.4",
+ "js-sys",
+ "rand 0.8.5",
+ "serde",
+ "serde-wasm-bindgen",
+ "serde_json",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+]
+
+[[package]]
+name = "ternvector-filter"
+version = "2.1.0"
+dependencies = [
+ "chrono",
+ "dashmap 6.1.0",
+ "ordered-float",
+ "serde",
+ "serde_json",
+ "ternvector-core",
+ "thiserror 2.0.18",
+ "uuid",
+]
+
+[[package]]
+name = "ternvector-fpga-transformer"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "criterion 0.5.1",
+ "ed25519-dalek",
+ "getrandom 0.2.17",
+ "hex",
+ "js-sys",
+ "memmap2",
+ "proptest",
+ "rand 0.8.5",
+ "rand_core 0.6.4",
+ "serde",
+ "serde_bytes",
+ "serde_json",
+ "sha2 0.10.9",
+ "thiserror 2.0.18",
+ "tokio",
+ "tracing",
+ "wasm-bindgen",
+]
+
+[[package]]
+name = "ternvector-fpga-transformer-wasm"
+version = "0.1.0"
+dependencies = [
+ "getrandom 0.2.17",
+ "js-sys",
+ "serde",
+ "serde_json",
+ "ternvector-fpga-transformer",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+]
+
+[[package]]
+name = "ternvector-gnn"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "criterion 0.5.1",
+ "dashmap 6.1.0",
+ "libc",
+ "memmap2",
+ "napi",
+ "napi-derive",
+ "ndarray 0.16.1",
+ "page_size",
+ "parking_lot 0.12.5",
+ "proptest",
+ "rand 0.8.5",
+ "rand_distr 0.4.3",
+ "rayon",
+ "serde",
+ "serde_json",
+ "tempfile",
+ "ternvector-core",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "ternvector-gnn-node"
+version = "2.1.0"
+dependencies = [
+ "napi",
+ "napi-build",
+ "napi-derive",
+ "serde_json",
+ "ternvector-gnn",
+]
+
+[[package]]
+name = "ternvector-gnn-wasm"
+version = "2.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "getrandom 0.2.17",
+ "getrandom 0.3.4",
+ "js-sys",
+ "serde",
+ "serde-wasm-bindgen",
+ "ternvector-gnn",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+]
+
+[[package]]
+name = "ternvector-graph"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "bincode 2.0.1",
+ "blake3",
+ "chrono",
+ "criterion 0.5.1",
+ "crossbeam",
+ "csv",
+ "dashmap 6.1.0",
+ "futures",
+ "hnsw_rs",
+ "hyper 1.9.0",
+ "lalrpop-util",
+ "lru 0.16.3",
+ "lz4",
+ "memmap2",
+ "mockall",
+ "moka",
+ "ndarray 0.16.1",
+ "nom 7.1.3",
+ "nom_locate",
+ "num_cpus",
+ "once_cell",
+ "ordered-float",
+ "parking_lot 0.12.5",
+ "pest",
+ "pest_derive",
+ "pest_generator",
+ "petgraph",
+ "prometheus",
+ "proptest",
+ "prost",
+ "rand 0.8.5",
+ "rand_distr 0.4.3",
+ "rayon",
+ "redb",
+ "rkyv",
+ "roaring",
+ "serde",
+ "serde_json",
+ "simsimd",
+ "tempfile",
+ "ternvector-cluster",
+ "ternvector-core",
+ "ternvector-raft",
+ "ternvector-replication",
+ "thiserror 2.0.18",
+ "tokio",
+ "tokio-test",
+ "tonic",
+ "tower 0.4.13",
+ "tracing",
+ "tracing-subscriber",
+ "uuid",
+ "xxhash-rust",
+ "zstd",
+]
+
+[[package]]
+name = "ternvector-graph-node"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "futures",
+ "napi",
+ "napi-build",
+ "napi-derive",
+ "serde",
+ "serde_json",
+ "ternvector-core",
+ "ternvector-graph",
+ "thiserror 2.0.18",
+ "tokio",
+ "tracing",
+ "uuid",
+]
+
+[[package]]
+name = "ternvector-graph-transformer"
+version = "2.1.0"
+dependencies = [
+ "proptest",
+ "rand 0.8.5",
+ "serde",
+ "ternvector-attention",
+ "ternvector-coherence",
+ "ternvector-gnn",
+ "ternvector-mincut",
+ "ternvector-solver",
+ "ternvector-verified",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "ternvector-graph-transformer-node"
+version = "2.1.0"
+dependencies = [
+ "napi",
+ "napi-build",
+ "napi-derive",
+ "serde",
+ "serde_json",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "ternvector-graph-transformer-wasm"
+version = "2.1.0"
+dependencies = [
+ "js-sys",
+ "serde",
+ "serde-wasm-bindgen",
+ "serde_json",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+]
+
+[[package]]
+name = "ternvector-graph-wasm"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "console_error_panic_hook",
+ "getrandom 0.2.17",
+ "getrandom 0.3.4",
+ "js-sys",
+ "parking_lot 0.12.5",
+ "regex",
+ "serde",
+ "serde-wasm-bindgen",
+ "serde_json",
+ "ternvector-core",
+ "ternvector-graph",
+ "thiserror 2.0.18",
+ "tracing-wasm",
+ "uuid",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "wasm-bindgen-test",
+ "web-sys",
+]
+
+[[package]]
+name = "ternvector-hyperbolic-hnsw"
+version = "0.1.0"
+dependencies = [
+ "nalgebra 0.34.2",
+ "ndarray 0.17.2",
+ "rand 0.8.5",
+ "rand_distr 0.4.3",
+ "serde",
+ "serde_json",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "ternvector-learning-wasm"
+version = "0.1.0"
+dependencies = [
+ "js-sys",
+ "serde",
+ "serde-wasm-bindgen",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+]
+
+[[package]]
+name = "ternvector-math"
+version = "2.1.0"
+dependencies = [
+ "approx",
+ "criterion 0.5.1",
+ "nalgebra 0.33.3",
+ "proptest",
+ "rand 0.8.5",
+ "rand_distr 0.4.3",
+ "rayon",
+ "serde",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "ternvector-math-wasm"
+version = "2.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "getrandom 0.2.17",
+ "js-sys",
+ "rayon",
+ "serde",
+ "serde-wasm-bindgen",
+ "serde_json",
+ "ternvector-math",
+ "wasm-bindgen",
+ "wasm-bindgen-rayon",
+ "wasm-bindgen-test",
+ "web-sys",
+]
+
+[[package]]
+name = "ternvector-metrics"
+version = "2.1.0"
+dependencies = [
+ "chrono",
+ "lazy_static",
+ "prometheus",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
+name = "ternvector-mincut"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "criterion 0.5.1",
+ "crossbeam",
+ "dashmap 6.1.0",
+ "mockall",
+ "ordered-float",
+ "parking_lot 0.12.5",
+ "petgraph",
+ "proptest",
+ "rand 0.8.5",
+ "rayon",
+ "roaring",
+ "serde",
+ "serde_json",
+ "ternvector-core",
+ "ternvector-graph",
+ "thiserror 2.0.18",
+ "tracing",
+]
+
+[[package]]
+name = "ternvector-mincut-gated-transformer"
+version = "2.1.0"
+dependencies = [
+ "criterion 0.5.1",
+ "getrandom 0.2.17",
+ "proptest",
+ "rand 0.8.5",
+ "serde",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "ternvector-mincut-gated-transformer-wasm"
+version = "0.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "js-sys",
+ "serde",
+ "serde-wasm-bindgen",
+ "ternvector-mincut-gated-transformer",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+]
+
+[[package]]
+name = "ternvector-mincut-node"
+version = "2.1.0"
+dependencies = [
+ "napi",
+ "napi-build",
+ "napi-derive",
+ "serde",
+ "serde_json",
+ "ternvector-mincut",
+]
+
+[[package]]
+name = "ternvector-mincut-wasm"
+version = "2.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "getrandom 0.2.17",
+ "js-sys",
+ "serde",
+ "serde-wasm-bindgen",
+ "serde_json",
+ "ternvector-mincut",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+]
+
+[[package]]
+name = "ternvector-nervous-system"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "approx",
+ "bincode 2.0.1",
+ "criterion 0.5.1",
+ "ndarray 0.16.1",
+ "parking_lot 0.12.5",
+ "proptest",
+ "rand 0.8.5",
+ "rand_distr 0.4.3",
+ "rayon",
+ "serde",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "ternvector-nervous-system-wasm"
+version = "0.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "getrandom 0.2.17",
+ "js-sys",
+ "rand 0.8.5",
+ "serde",
+ "serde-wasm-bindgen",
+ "serde_json",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+ "web-sys",
+]
+
+[[package]]
+name = "ternvector-node"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "napi",
+ "napi-build",
+ "napi-derive",
+ "serde",
+ "serde_json",
+ "ternvector-collections",
+ "ternvector-core",
+ "ternvector-filter",
+ "ternvector-metrics",
+ "thiserror 2.0.18",
+ "tokio",
+ "tracing",
+]
+
+[[package]]
+name = "ternvector-postgres"
+version = "0.3.0"
+dependencies = [
+ "approx",
+ "bincode 1.3.3",
+ "bitvec",
+ "chrono",
+ "criterion 0.5.1",
+ "crossbeam",
+ "dashmap 6.1.0",
+ "fastembed",
+ "half 2.7.1",
+ "home",
+ "lazy_static",
+ "memmap2",
+ "once_cell",
+ "ordered-float",
+ "parking_lot 0.12.5",
+ "pgrx",
+ "pgrx-tests",
+ "priority-queue 2.7.0",
+ "proptest",
+ "rand 0.8.5",
+ "rand_chacha 0.3.1",
+ "rayon",
+ "rkyv",
+ "serde",
+ "serde_json",
+ "simsimd",
+ "tempfile",
+ "ternvector-attention",
+ "ternvector-domain-expansion",
+ "ternvector-math",
+ "ternvector-mincut-gated-transformer",
+ "ternvector-solver",
+ "ternvector-sona",
+ "thiserror 1.0.69",
+ "tracing",
+]
+
+[[package]]
+name = "ternvector-profiler"
+version = "2.1.0"
+dependencies = [
+ "serde",
+ "serde_json",
+ "tempfile",
+]
+
+[[package]]
+name = "ternvector-raft"
+version = "2.1.0"
+dependencies = [
+ "bincode 2.0.1",
+ "chrono",
+ "dashmap 6.1.0",
+ "futures",
+ "parking_lot 0.12.5",
+ "rand 0.8.5",
+ "serde",
+ "serde_json",
+ "ternvector-core",
+ "thiserror 2.0.18",
+ "tokio",
+ "tracing",
+ "uuid",
+]
+
+[[package]]
+name = "ternvector-replication"
+version = "2.1.0"
+dependencies = [
+ "bincode 2.0.1",
+ "chrono",
+ "dashmap 6.1.0",
+ "futures",
+ "parking_lot 0.12.5",
+ "rand 0.8.5",
+ "serde",
+ "serde_json",
+ "ternvector-core",
+ "thiserror 2.0.18",
+ "tokio",
+ "tracing",
+ "uuid",
+]
+
+[[package]]
+name = "ternvector-robotics"
+version = "0.1.0"
+dependencies = [
+ "criterion 0.5.1",
+ "rand 0.8.5",
+ "rvf-runtime",
+ "rvf-types",
+ "serde",
+ "serde_json",
+ "tempfile",
+ "ternvector-domain-expansion",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "ternvector-robotics-examples"
+version = "0.1.0"
+dependencies = [
+ "rand 0.8.5",
+ "serde_json",
+ "ternvector-robotics",
+]
+
+[[package]]
+name = "ternvector-router-cli"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "chrono",
+ "clap",
+ "colored 2.2.0",
+ "rand 0.8.5",
+ "serde_json",
+ "ternvector-router-core",
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
+name = "ternvector-router-core"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "bincode 2.0.1",
+ "chrono",
+ "criterion 0.5.1",
+ "crossbeam",
+ "memmap2",
+ "ndarray 0.15.6",
+ "parking_lot 0.12.5",
+ "proptest",
+ "rand 0.8.5",
+ "rayon",
+ "redb",
+ "rkyv",
+ "serde",
+ "serde_json",
+ "simsimd",
+ "tempfile",
+ "thiserror 2.0.18",
+ "tracing",
+ "tracing-subscriber",
+ "uuid",
+]
+
+[[package]]
+name = "ternvector-router-ffi"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "chrono",
+ "napi",
+ "napi-build",
+ "napi-derive",
+ "serde",
+ "serde_json",
+ "ternvector-router-core",
+ "tokio",
+]
+
+[[package]]
+name = "ternvector-router-wasm"
+version = "2.1.0"
+dependencies = [
+ "js-sys",
+ "serde",
+ "serde_json",
+ "ternvector-router-core",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "wasm-bindgen-test",
+ "web-sys",
+]
+
+[[package]]
+name = "ternvector-scipix"
+version = "2.1.0"
+dependencies = [
+ "ab_glyph",
+ "anyhow",
+ "approx",
+ "assert_cmd",
+ "async-trait",
+ "axum 0.7.9",
+ "axum-streams",
+ "axum-test 15.7.4",
+ "base64 0.22.1",
+ "chrono",
+ "clap",
+ "clap_complete",
+ "colored 2.2.0",
+ "comfy-table",
+ "console",
+ "console_error_panic_hook",
+ "criterion 0.5.1",
+ "dashmap 6.1.0",
+ "dialoguer",
+ "dirs 5.0.1",
+ "dotenvy",
+ "env_logger",
+ "futures",
+ "getrandom 0.3.4",
+ "glob",
+ "governor",
+ "hmac 0.12.1",
+ "hyper 1.9.0",
+ "image 0.25.10",
+ "imageproc",
+ "indicatif",
+ "js-sys",
+ "memmap2",
+ "mockall",
+ "moka",
+ "nalgebra 0.33.3",
+ "ndarray 0.16.1",
+ "nom 7.1.3",
+ "nonzero_ext",
+ "num_cpus",
+ "once_cell",
+ "ort",
+ "parking_lot 0.12.5",
+ "predicates",
+ "proptest",
+ "rand 0.8.5",
+ "rayon",
+ "reqwest 0.12.28",
+ "rusttype",
+ "serde",
+ "serde-wasm-bindgen",
+ "serde_json",
+ "sha2 0.10.9",
+ "tempfile",
+ "thiserror 2.0.18",
+ "tokio",
+ "toml",
+ "tower 0.4.13",
+ "tower-http 0.5.2",
+ "tracing",
+ "tracing-subscriber",
+ "tracing-wasm",
+ "uuid",
+ "validator",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "web-sys",
+]
+
+[[package]]
+name = "ternvector-server"
+version = "2.1.0"
+dependencies = [
+ "axum 0.7.9",
+ "dashmap 6.1.0",
+ "parking_lot 0.12.5",
+ "serde",
+ "serde_json",
+ "ternvector-core",
+ "thiserror 2.0.18",
+ "tokio",
+ "tower 0.5.3",
+ "tower-http 0.6.8",
+ "tracing",
+ "uuid",
+]
+
+[[package]]
+name = "ternvector-snapshot"
+version = "2.1.0"
+dependencies = [
+ "async-trait",
+ "bincode 2.0.1",
+ "chrono",
+ "flate2",
+ "serde",
+ "serde_json",
+ "sha2 0.10.9",
+ "ternvector-core",
+ "thiserror 2.0.18",
+ "tokio",
+ "uuid",
+]
+
+[[package]]
+name = "ternvector-solver"
+version = "2.1.0"
+dependencies = [
+ "approx",
+ "criterion 0.5.1",
+ "crossbeam",
+ "dashmap 6.1.0",
+ "getrandom 0.2.17",
+ "nalgebra 0.33.3",
+ "parking_lot 0.12.5",
+ "proptest",
+ "rand 0.8.5",
+ "rayon",
+ "serde",
+ "thiserror 2.0.18",
+ "tracing",
+]
+
+[[package]]
+name = "ternvector-solver-node"
+version = "2.1.0"
+dependencies = [
+ "napi",
+ "napi-build",
+ "napi-derive",
+ "serde",
+ "serde_json",
+ "ternvector-solver",
+ "tokio",
+]
+
+[[package]]
+name = "ternvector-solver-wasm"
+version = "2.1.0"
+dependencies = [
+ "getrandom 0.2.17",
+ "js-sys",
+ "serde",
+ "serde-wasm-bindgen",
+ "serde_json",
+ "ternvector-solver",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+ "web-sys",
+]
+
+[[package]]
+name = "ternvector-sona"
+version = "0.1.9"
+dependencies = [
+ "console_error_panic_hook",
+ "criterion 0.5.1",
+ "crossbeam",
+ "getrandom 0.2.17",
+ "js-sys",
+ "napi",
+ "napi-derive",
+ "once_cell",
+ "parking_lot 0.12.5",
+ "rand 0.8.5",
+ "serde",
+ "serde_json",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "web-sys",
+]
+
+[[package]]
+name = "ternvector-sparse-inference"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "byteorder",
+ "criterion 0.5.1",
+ "half 2.7.1",
+ "memmap2",
+ "mockall",
+ "ndarray 0.16.1",
+ "parking_lot 0.12.5",
+ "proptest",
+ "rand 0.8.5",
+ "rand_distr 0.4.3",
+ "rayon",
+ "rkyv",
+ "serde",
+ "serde_json",
+ "thiserror 2.0.18",
+ "tracing",
+]
+
+[[package]]
+name = "ternvector-sparsifier"
+version = "2.1.0"
+dependencies = [
+ "approx",
+ "criterion 0.5.1",
+ "dashmap 6.1.0",
+ "ordered-float",
+ "parking_lot 0.12.5",
+ "proptest",
+ "rand 0.8.5",
+ "rayon",
+ "serde",
+ "serde_json",
+ "thiserror 2.0.18",
+ "tracing",
+]
+
+[[package]]
+name = "ternvector-sparsifier-wasm"
+version = "2.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "getrandom 0.2.17",
+ "js-sys",
+ "serde",
+ "serde-wasm-bindgen",
+ "serde_json",
+ "ternvector-sparsifier",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+]
+
+[[package]]
+name = "ternvector-temporal-tensor"
+version = "2.1.0"
+
+[[package]]
+name = "ternvector-tiny-dancer-core"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "bytemuck",
+ "chrono",
+ "criterion 0.5.1",
+ "crossbeam",
+ "dashmap 6.1.0",
+ "memmap2",
+ "ndarray 0.16.1",
+ "once_cell",
+ "parking_lot 0.12.5",
+ "proptest",
+ "rand 0.8.5",
+ "rand_distr 0.4.3",
+ "rayon",
+ "redb",
+ "rusqlite",
+ "serde",
+ "serde_json",
+ "simsimd",
+ "tempfile",
+ "thiserror 2.0.18",
+ "tracing",
+ "tracing-subscriber",
+ "uuid",
+]
+
+[[package]]
+name = "ternvector-tiny-dancer-node"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "chrono",
+ "napi",
+ "napi-build",
+ "napi-derive",
+ "parking_lot 0.12.5",
+ "serde",
+ "serde_json",
+ "ternvector-tiny-dancer-core",
+ "thiserror 2.0.18",
+ "tokio",
+]
+
+[[package]]
+name = "ternvector-tiny-dancer-wasm"
+version = "2.1.0"
+dependencies = [
+ "js-sys",
+ "serde",
+ "serde_json",
+ "ternvector-tiny-dancer-core",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "wasm-bindgen-test",
+ "web-sys",
+]
+
+[[package]]
+name = "ternvector-verified"
+version = "0.1.1"
+dependencies = [
+ "criterion 0.5.1",
+ "lean-agentic",
+ "proptest",
+ "serde",
+ "serde_json",
+ "ternvector-cognitive-container",
+ "ternvector-coherence",
+ "ternvector-core",
+ "thiserror 2.0.18",
+]
+
+[[package]]
+name = "ternvector-verified-wasm"
+version = "0.1.1"
+dependencies = [
+ "js-sys",
+ "serde",
+ "serde-wasm-bindgen",
+ "serde_json",
+ "ternvector-verified",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
+ "web-sys",
+]
+
+[[package]]
+name = "ternvector-wasm"
+version = "2.1.0"
+dependencies = [
+ "anyhow",
+ "base64 0.22.1",
+ "console_error_panic_hook",
+ "ed25519-dalek",
+ "getrandom 0.2.17",
+ "getrandom 0.3.4",
+ "hex",
+ "js-sys",
+ "parking_lot 0.12.5",
+ "rand 0.8.5",
+ "serde",
+ "serde-wasm-bindgen",
+ "serde_json",
+ "sha2 0.10.9",
+ "ternvector-collections",
+ "ternvector-core",
+ "ternvector-filter",
+ "thiserror 2.0.18",
+ "tracing-wasm",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "wasm-bindgen-test",
+ "web-sys",
 ]
 
 [[package]]
@@ -13076,10 +13024,10 @@ name = "train-discoveries"
 version = "0.1.0"
 dependencies = [
  "rand 0.8.5",
- "ruvector-core 2.1.0",
- "ruvector-solver",
  "serde",
  "serde_json",
+ "ternvector-core",
+ "ternvector-solver",
  "tracing",
  "tracing-subscriber",
 ]
@@ -13478,7 +13426,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "rand 0.8.5",
- "ruvector-verified",
+ "ternvector-verified",
 ]
 
 [[package]]

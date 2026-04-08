@@ -27,7 +27,7 @@ full = ["sublinear", "physics", "biological", "self-organizing", "verified-train
 ternvector-verified = { version = "0.1", path = "../ternvector-verified", features = ["ultra", "hnsw-proofs"] }
 ternvector-gnn = { version = "2.0", path = "../ternvector-gnn" }
 ternvector-attention = { version = "2.0", path = "../ternvector-attention" }
-ternvector-mincut = { version = "2.0", path = "../ternvector-mincut" }
+ternvector-mincut = { version = "2.1.0", path = "../ternvector-mincut" }
 ternvector-solver = { version = "2.0", path = "../ternvector-solver" }
 ternvector-coherence = { version = "2.0", path = "../ternvector-coherence" }
 serde = { workspace = true }

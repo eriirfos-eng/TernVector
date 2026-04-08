@@ -31,7 +31,7 @@ sha3 = "0.10"
 crossbeam = "0.8"
 
 # Optional SONA integration (ADR-103 B5)
-ternvector-sona = { path = "../../sona", optional = true, features = ["serde-support"] }
+ternvector-sona = { path = "../../ternvector-sona", optional = true, features = ["serde-support"] }
 
 [dev-dependencies]
 criterion = { workspace = true }

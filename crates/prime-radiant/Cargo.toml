@@ -31,7 +31,7 @@ cognitum-gate-kernel = { version = "0.1.0", features = ["std"], optional = true 
 
 # Self-optimizing thresholds with EWC++ (sona)
 # Provides: SonaEngine, MicroLoRA, EwcPlusPlus, ReasoningBank
-ternvector-sona = { version = "0.1.4", features = ["serde-support"], optional = true }
+ternvector-sona = { version = "0.1.9", path = "../ternvector-sona", features = ["serde-support"], optional = true }
 
 # Learned restriction maps with GNN (ternvector-gnn)
 # Provides: RuvectorLayer, ElasticWeightConsolidation, ReplayBuffer
@@ -39,11 +39,11 @@ ternvector-gnn = { version = "2.0", path = "../ternvector-gnn", default-features
 
 # Subpolynomial n^o(1) graph partitioning (ternvector-mincut)
 # Provides: SubpolynomialMinCut, CognitiveMinCutEngine, WitnessTree
-ternvector-mincut = { version = "2.0", path = "../ternvector-mincut", default-features = false, optional = true }
+ternvector-mincut = { version = "2.1.0", path = "../ternvector-mincut", default-features = false, optional = true }
 
 # Hierarchy-aware Poincare energy (ternvector-hyperbolic-hnsw)
 # Provides: HyperbolicHnsw, poincare_distance, ShardedHyperbolicHnsw
-ternvector-hyperbolic-hnsw = { version = "0.1.0", default-features = false, optional = true }
+ternvector-hyperbolic-hnsw = { version = "0.1.0", path = "../ternvector-hyperbolic-hnsw", default-features = false, optional = true }
 
 # CoherenceGatedSystem, HDC witnesses, neural gating (ternvector-nervous-system)
 # Provides: CoherenceGatedSystem, GlobalWorkspace, HdcMemory, Dendrite

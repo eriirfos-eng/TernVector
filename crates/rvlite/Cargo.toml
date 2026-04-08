@@ -16,7 +16,7 @@ ternvector-core = { version = "2.0.1", path = "../ternvector-core", default-feat
 # Note: ternvector-wasm, ternvector-graph-wasm, ternvector-gnn-wasm will be added after validating they exist
 
 # Optional features (to be enabled after basic integration works)
-# sona = { path = "../sona", features = ["wasm"], optional = true }
+# sona = { path = "../ternvector-sona", features = ["wasm"], optional = true }
 # micro-hnsw-wasm = { path = "../micro-hnsw-wasm", optional = true }
 
 # ===== NEW - SQL Engine (to be added later) =====

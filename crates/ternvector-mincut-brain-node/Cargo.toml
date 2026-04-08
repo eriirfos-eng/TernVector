@@ -12,7 +12,7 @@ publish = false
 crate-type = ["cdylib"]
 
 [dependencies]
-ternvector-mincut = { version = "2.0", path = "../ternvector-mincut", default-features = false, features = ["wasm", "canonical"] }
+ternvector-mincut = { version = "2.1.0", path = "../ternvector-mincut", default-features = false, features = ["wasm", "canonical"] }
 getrandom = { version = "0.2", features = ["js"] }
 
 [profile.release]

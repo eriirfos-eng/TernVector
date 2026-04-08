@@ -16,10 +16,14 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 # Path dependency to ternvector-mincut for shared types (only for std builds)
-ternvector-mincut = { version = "2.0", path = "../ternvector-mincut", default-features = false, features = ["wasm"], optional = true }
+ternvector-mincut = { version = "2.1.0", path = "../ternvector-mincut", default-features = false, features = ["wasm"], optional = true }
+
 
 # no_std compatible math
 libm = "0.2"
+
+# Ternary Intelligence Stack (TIS) - Silicon Parasite Gate
+ternlang-gate = { path = "/home/eri-irfos/Desktop/Ternary Intelligence Stack (TIS)/ternlang-root/ternlang-gate" }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 # WASM-specific dependencies (none needed for core kernel)

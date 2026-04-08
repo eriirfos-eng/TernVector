@@ -14,7 +14,7 @@ categories = ["science", "algorithms"]
 [dependencies]
 # Ruvector integration
 ternvector-core = { version = "2.0", path = "../ternvector-core", default-features = false, features = ["storage", "hnsw", "parallel", "simd"] }
-ternvector-sona = { version = "0.1.6", path = "../sona", default-features = false, features = ["serde-support"] }
+ternvector-sona = { version = "0.1.6", path = "../ternvector-sona", default-features = false, features = ["serde-support"] }
 
 # Optional Ruvector crates for advanced features
 ternvector-attention = { version = "2.0", path = "../ternvector-attention", optional = true }

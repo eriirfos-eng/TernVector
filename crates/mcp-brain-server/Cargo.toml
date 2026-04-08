@@ -57,7 +57,7 @@ async-stream = "0.3"
 urlencoding = "2"
 
 # TernVector Cognitive Stack
-sona = { package = "ternvector-sona", path = "../sona", features = ["serde-support"] }
+sona = { package = "ternvector-sona", path = "../ternvector-sona", features = ["serde-support"] }
 ternvector-mincut = { path = "../ternvector-mincut", features = ["canonical"] }
 ternvector-nervous-system = { path = "../ternvector-nervous-system" }
 ternvector-domain-expansion = { path = "../ternvector-domain-expansion" }

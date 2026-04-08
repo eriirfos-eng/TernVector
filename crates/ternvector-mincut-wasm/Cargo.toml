@@ -14,7 +14,7 @@ readme = "README.md"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-ternvector-mincut = { version = "2.0", path = "../ternvector-mincut", default-features = false, features = ["wasm"] }
+ternvector-mincut = { version = "2.1.0", path = "../ternvector-mincut", default-features = false, features = ["wasm"] }
 wasm-bindgen = { workspace = true }
 wasm-bindgen-futures = { workspace = true }
 js-sys = { workspace = true }

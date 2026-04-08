@@ -35,4 +35,4 @@ hex = "0.4"
 regex-lite = "0.1"
 
 # TernVector Cognitive Stack
-sona = { package = "ternvector-sona", path = "../sona", features = ["serde-support"] }
+sona = { package = "ternvector-sona", path = "../ternvector-sona", features = ["serde-support"] }

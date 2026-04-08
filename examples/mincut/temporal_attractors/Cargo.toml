@@ -12,4 +12,4 @@ name = "temporal-attractors"
 path = "src/main.rs"
 
 [dependencies]
-ternvector-mincut = { path = "../../../crates/ternvector-mincut" }
+ternvector-mincut = { path = "../ternvector-mincut" }

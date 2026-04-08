@@ -134,13 +134,13 @@ once_cell = "1.19"
 fastembed = { version = "5", optional = true }
 
 # Mincut-gated transformer (optional)
-ternvector-mincut-gated-transformer = { version = "0.1.0", path = "../ternvector-mincut-gated-transformer", optional = true }
+ternvector-mincut-gated-transformer = { version = "2.1.0", path = "../ternvector-mincut-gated-transformer", optional = true }
 
 # v0.3 optional dependencies
 ternvector-solver = { version = "2.0", path = "../ternvector-solver", features = ["full"], optional = true }
 ternvector-math = { version = "2.0", path = "../ternvector-math", optional = true }
 ternvector-attention = { version = "2.0", path = "../ternvector-attention", optional = true }
-ternvector-sona = { version = "0.1", path = "../sona", features = ["serde-support"], optional = true }
+ternvector-sona = { version = "0.1", path = "../ternvector-sona", features = ["serde-support"], optional = true }
 ternvector-domain-expansion = { version = "2.0", path = "../ternvector-domain-expansion", optional = true }
 
 # Optional: Use ternvector-core for shared implementations

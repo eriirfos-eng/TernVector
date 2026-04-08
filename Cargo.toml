@@ -43,7 +43,7 @@ members = [
     "examples/scipix",
     "examples/google-cloud",
     "examples/subpolynomial-time",
-    "crates/sona",
+    "crates/ternvector-sona",
     "crates/rvlite",
     "crates/ternvector-nervous-system",
     "crates/ternvector-dag",
@@ -233,17 +233,15 @@ opt-level = 3
 lto = "fat"
 codegen-units = 1
 strip = true
-panic = "unwind"
-
-[profile.bench]
-inherits = "release"
-debug = true
+panic = "abort"
 
 [profile.dev]
 opt-level = 0
 debug = true
+panic = "abort"
 
 [profile.test]
+panic = "abort"
 
 # Patch hnsw_rs to use rand 0.8 instead of 0.9 for WASM compatibility
 # This resolves the getrandom version conflict (0.2 vs 0.3)
